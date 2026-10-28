@@ -62,12 +62,7 @@
                         <div class="text-xs text-gray-600">
                             Registro guardado el: {{ $participante->created_at->format('d/m/Y H:i') }}
                         </div>
-                        @if($participante->ponencia_pdf_path)
-                            <a href="{{ asset('storage/' . $participante->ponencia_pdf_path) }}" target="_blank"
-                                class="inline-flex items-center gap-1 text-sm bg-gray-800 text-white px-4 py-2 rounded-lg hover:bg-gray-700 transition">
-                                Ver PDF adjunto
-                            </a>
-                        @endif
+                        
                     </div>
                 </div>
             @else

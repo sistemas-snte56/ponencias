@@ -26,6 +26,6 @@ class ConsultaParticipante extends Component
 
     public function render()
     {
-        return view('livewire.consulta-participante')->layout('layouts.guest');
+        return view('livewire.consulta-participante');
     }
 }
