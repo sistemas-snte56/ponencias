@@ -31,6 +31,11 @@ class Participante extends Model
         'tema',
         'ponencia_pdf_path',
         'ponencia_docx_path',
+        'titulo_ponencia',
+        'diagnostico_problema',
+        'justificacion',
+        'propuesta_resolucion',
+        'impacto_esperado',
     ];
 
     /**
@@ -48,9 +53,6 @@ class Participante extends Model
     {
         return $this->belongsTo(User::class, 'created_by');
     }
-
-    
-
    
 
     protected static function booted() : void
@@ -66,7 +68,7 @@ class Participante extends Model
             // 3. Generar Folio ÚNICO con reintento automático
             $year = now()->format('Y');
             do {
-                $nuevoFolio = "SNTE56-CPM-{$year}-" . strtoupper(bin2hex(random_bytes(3)));
+                $nuevoFolio = "SNTE56-CSE-{$year}-" . strtoupper(bin2hex(random_bytes(3)));
                 // Verificamos si este folio ya existe en la tabla
                 $existe = static::where('folio', $nuevoFolio)->exists();
             } while ($existe);
@@ -89,6 +91,14 @@ class Participante extends Model
 
             $participante->apellido_materno = $participante->apellido_materno
                 ? mb_strtoupper(trim($participante->apellido_materno), 'UTF-8')
+                : null;
+
+            $participante->rfc = $participante->rfc
+                ? mb_strtoupper(trim($participante->rfc), 'UTF-8')
+                : null;
+
+            $participante->titulo_ponencia = $participante->titulo_ponencia
+                ? mb_strtoupper(trim($participante->titulo_ponencia), 'UTF-8')
                 : null;
         });
     }    

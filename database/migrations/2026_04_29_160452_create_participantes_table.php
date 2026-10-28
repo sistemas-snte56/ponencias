@@ -44,6 +44,9 @@ return new class extends Migration
             $table->string('uudd'); // Unidad/Dependencia
 
             // Ponencia
+
+
+            // Desarrollo de la ponencia
             $table->enum('tema', [
                 'I. Artículo Tercero Constitucional, Educación y Escuela Pública.',
                 'II. Derechos Laborales y Profesionales.',
@@ -55,7 +58,13 @@ return new class extends Migration
                 'VIII. Demandas de los Subsistemas Homologados.',
                 'IX. Equidad, Paridad e Inclusión.',
                 'X. Reforma Estatutaria.'
-            ])->nullable();
+            ])->nullable();            
+            $table->string('titulo_ponencia')->nullable();
+            $table->text('diagnostico_problema')->nullable();
+            $table->text('justificacion')->nullable();
+            $table->text('propuesta_resolucion')->nullable();
+            $table->text('impacto_esperado')->nullable();
+
             $table->string('ponencia_pdf_path')->nullable();
             $table->string('ponencia_docx_path')->nullable();
 

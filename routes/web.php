@@ -21,16 +21,16 @@ use App\Livewire\RegistroPonencia;
 
 
 
-Route::get('/', RegistroPonencia::class);
+Route::get('/', RegistroPonencia::class)->name('public.registro-ponencia');
 /*
 |--------------------------------------------------------------------------
 | Rutas Públicas
 |--------------------------------------------------------------------------
 */
 
-// // 1. Buscador principal (Livewire) — los maestros se buscan aquí
-// Route::get('/consulta', ConsultaParticipante::class)
-//     ->name('public.consulta');
+// 1. Buscador principal (Livewire) — los maestros se buscan aquí
+Route::get('/consulta', ConsultaParticipante::class)
+    ->name('public.consulta');
 
 // // 2. Validación por QR — ruta que escanea el QR y muestra resultado directo
 // Route::get('/validar/{uudd}', function ($uudd) {
@@ -43,36 +43,39 @@ Route::get('/', RegistroPonencia::class);
 //     return view('validar.resultados_qr', compact('participante'));
 // })->name('validar.constancia');
 
-// // 3. Descarga de constancia en PDF
-// Route::get('/descargar-constancia/{uudd}', function ($uudd) {
-//     // Buscar participante aprobado
-//     $participante = Participante::where('uudd', $uudd)
-//         ->where('status', 'aprobado')
-//         ->firstOrFail();
+// Ruta para descargar el Acuse en PDF con QR
+Route::get('/descargar-acuse/{uudd}', function ($uudd) {
+    $participante = Participante::where('uudd', $uudd)->firstOrFail();
 
-//     // Registrar primera descarga
-//     if (is_null($participante->descargado_at)) {
-//         $participante->update(['descargado_at' => now()]);
-//     }
+    // Marcar como descargado si es la primera vez
+    if (is_null($participante->descargado_at)) {
+        $participante->update(['descargado_at' => now()]);
+    }
 
-//     // Generar QR en base64
-//     $qrCode = base64_encode(
-//         QrCode::format('svg')
-//             ->size(150)
-//             ->margin(1)
-//             ->errorCorrection('H')
-//             ->generate(route('validar.constancia', $participante->uudd))
-//     );
+    // Generar el código QR
+    $qrCode = base64_encode(
+        QrCode::format('svg')
+            ->size(150)
+            ->margin(1)
+            ->errorCorrection('H')
+            // ->generate(route('validar.constancia', $participante->uudd))
+            ->generate(route('validar.constancia', ['uudd' => $participante->uudd]))
+    );
 
-//     // Generar y entregar PDF
-//     $pdf = Pdf::loadView('pdf.constancia', compact('participante', 'qrCode'))
-//         ->setPaper('letter', 'portrait');
+    // Cargar la vista del PDF
+    $pdf = Pdf::loadView('pdf.acuse-ponencia', compact('participante', 'qrCode'))
+        ->setPaper('letter', 'portrait');
 
-//     $filename = implode('-', [
-//         $participante->nombres,
-//         $participante->apellido_paterno,
-//         $participante->apellido_materno,
-//     ]) . '.pdf';
+    return $pdf->stream('Acuse-' . $participante->folio . '.pdf');
+})->name('acuse.descargar');
 
-//     return $pdf->stream($filename);
-// })->name('constancia.descargar');
+
+Route::get('/validar/{uudd}', function ($uudd) {
+    $participante = Participante::where('uudd', $uudd)->first();
+
+    if (!$participante) {
+        return response()->view('validar.error_qr', [], 404);
+    }
+
+    return view('validar.resultados_qr', compact('participante'));
+})->name('validar.constancia');

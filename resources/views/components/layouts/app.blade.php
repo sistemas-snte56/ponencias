@@ -1,25 +1,9 @@
-{{-- <!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-        <title>{{ $title ?? 'Page Title' }}</title>
-        @livewireStyles
-    </head>
-    <body>
-        {{ $slot }}
-        @livewireScripts
-    </body>
-</html> --}}
-
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Consulta de Constancias - SNTE 56</title>
+    <title>XII Congreso Estatal de Ponencias - SNTE 56</title>
     @vite(['resources/css/app.css', 'resources/js/app.js'])
     @livewireStyles
 </head>
@@ -53,11 +37,24 @@
 
         {{-- Franja naranja --}}
         <div class="bg-[#f18c21] h-3"></div>
+
+        {{-- Menú de Navegación Público (Pestañas) --}}
+        <nav class="bg-white border-b border-gray-200 shadow-sm px-6 py-2.5 flex justify-center md:justify-end gap-6 text-sm font-medium">
+            <a href="{{ route('public.registro-ponencia') }}" 
+               class="transition flex items-center gap-1.5 {{ request()->routeIs('public.registro-ponencia') ? 'text-[#9d2449] font-bold border-b-2 border-[#9d2449] pb-0.5' : 'text-gray-600 hover:text-[#9d2449]' }}">
+                📝 Registrar Ponencia
+            </a>
+            <a href="{{ route('public.consulta') }}" 
+               class="transition flex items-center gap-1.5 {{ request()->routeIs('public.consulta') ? 'text-[#9d2449] font-bold border-b-2 border-[#9d2449] pb-0.5' : 'text-gray-600 hover:text-[#9d2449]' }}">
+                🔍 Consultar Registro / Acuse
+            </a>
+        </nav>
     </header>
 
     <div class="flex-1 flex flex-col justify-center py-6">
         {{ $slot }}
     </div>
+
     <footer class="bg-[#9d2449]">
         <div class="bg-[#f18c21] h-3"></div>
 
