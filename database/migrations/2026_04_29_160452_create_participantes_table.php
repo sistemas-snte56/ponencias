@@ -14,10 +14,17 @@ return new class extends Migration
         Schema::create('participantes', function (Blueprint $table) {
             $table->id();
             $table->foreignId('delegacion_id')->constrained('delegaciones');
+
+            //Datos personales
             $table->string('nombres');
             $table->string('apellido_paterno');
             $table->string('apellido_materno')->nullable();
             $table->enum('genero', ['H', 'M', 'O'])->nullable();
+            $table->string('rfc')->nullable();
+            $table->string('telefono')->nullable();
+            $table->string('email')->nullable();
+
+            // Datos laborales
             $table->enum('nivel_educativo', [
                 'PREESCOLAR',
                 'EDUCACION ESPECIAL',
@@ -33,18 +40,29 @@ return new class extends Migration
                 'NORMAL',
                 'UPV'
             ])->nullable();            
-            $table->string('rfc')->nullable();
-            $table->string('telefono')->nullable();
-            $table->string('email')->nullable();
             $table->string('numero_personal')->unique()->nullable();
             $table->string('uudd'); // Unidad/Dependencia
-            $table->string('folio')->unique();
-            $table->text('codigo_qr')->nullable();
+
+            // Ponencia
+            $table->enum('tema', [
+                'I. Artículo Tercero Constitucional, Educación y Escuela Pública.',
+                'II. Derechos Laborales y Profesionales.',
+                'III. Previsión y Seguridad Social.',
+                'IV. Jubilados y Pensionados.',
+                'V. Salarios, Prestaciones e Incentivos.',
+                'VI. Inteligencia Artificial en el Ámbito Educativo y Sindical.',
+                'VII. Entornos Escolares Libres de Violencia.',
+                'VIII. Demandas de los Subsistemas Homologados.',
+                'IX. Equidad, Paridad e Inclusión.',
+                'X. Reforma Estatutaria.'
+            ])->nullable();
             $table->string('ponencia_pdf_path')->nullable();
             $table->string('ponencia_docx_path')->nullable();
+
+            // Control
+            $table->string('folio')->unique();
+            $table->text('codigo_qr')->nullable();
             $table->timestamp('descargado_at')->nullable();
-            
-            // Relaciones
             $table->foreignId('created_by')->nullable()->constrained('users')->nullOnDelete();
             $table->timestamps();
         });
