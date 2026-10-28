@@ -5,6 +5,7 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Support\Str;
+use Illuminate\Database\Eloquent\Casts\Attribute;
 
 class Participante extends Model
 {
@@ -26,6 +27,10 @@ class Participante extends Model
         'created_by',
         'status',
         'descargado_at',
+        'nivel_educativo',
+        'tema',
+        'ponencia_pdf_path',
+        'ponencia_docx_path',
     ];
 
     /**
@@ -46,25 +51,9 @@ class Participante extends Model
 
     
 
-    public function getNombreCompletoAttribute()
-    {
-        // return "{$this->nombres} {$this->apellido_paterno} {$this->apellido_materno}";
+   
 
-        /**
-         * Concatenamos los campos de nombre completo y eliminamos espacios adicionales, 
-         * esto es útil para evitar problemas con espacios en blanco al buscar por nombre completo. 
-         * Por ejemplo, si un participante tiene un apellido materno vacío, no queremos que haya un espacio 
-         * extra al final del nombre completo. Al usar trim() y implode(), 
-         * garantizamos que el formato del nombre completo sea consistente sin importar si algunos campos están vacíos o no.
-         */
-        return trim(implode(' ', [
-            $this->nombres,
-            $this->apellido_paterno,
-            $this->apellido_materno,
-        ]));        
-    }    
-
-    protected static function booted()
+    protected static function booted() : void
     {
         static::creating(function ($participante) {
             // 1. Asignar el creador automáticamente
@@ -87,7 +76,36 @@ class Participante extends Model
             $participante->codigo_qr = url("/validar/{$participante->uudd}");            
 
         });
+
+        static::saving(function (Participante $participante) {
+            $participante->nombres = mb_strtoupper(
+                trim($participante->nombres), 'UTF-8'
+            );
+
+            $participante->apellido_paterno = mb_strtoupper(
+                trim($participante->apellido_paterno),
+                'UTF-8'
+            );
+
+            $participante->apellido_materno = $participante->apellido_materno
+                ? mb_strtoupper(trim($participante->apellido_materno), 'UTF-8')
+                : null;
+        });
     }    
+
+
+    protected function nombreCompleto(): Attribute
+    {
+        return Attribute::make(
+            get: fn () => collect([
+                $this->nombres,
+                $this->apellido_paterno,
+                $this->apellido_materno,
+            ])
+            ->filter() //filter() elimina los valores vacíos o null
+            ->implode(' '), // los une utilizando un espacio:
+        );
+    }
 
     protected $casts = [
         'descargado_at' => 'datetime',

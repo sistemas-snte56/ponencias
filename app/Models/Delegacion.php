@@ -4,6 +4,7 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
+use Illuminate\Database\Eloquent\Casts\Attribute;
 
 class Delegacion extends Model
 {
@@ -34,8 +35,10 @@ class Delegacion extends Model
     /**
      * Se obtiene el nombre completo de la delegacion y se utiliaza para mostrarlo en el select de la relacion con los participantes
      */
-    public function getNombreCompletoAttribute()
+    protected function delegacionCompleta(): Attribute
     {
-        return "{$this->delegacion} - {$this->nivel->nombre},  {$this->sede}  ";
-    }       
+        return Attribute::make(
+            get: fn () => $this->delegacion . ' - ' . $this->nivel->nombre . ' - ' . $this->sede,
+        );
+    }    
 }
