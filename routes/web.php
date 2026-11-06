@@ -6,6 +6,9 @@ use Barryvdh\DomPDF\Facade\Pdf;
 use Illuminate\Support\Facades\Route;
 use SimpleSoftwareIO\QrCode\Facades\QrCode;
 use App\Livewire\RegistroPonencia;
+use App\Livewire\Validar\ValidacionAcreditado;
+
+
 
 
 /*
@@ -79,3 +82,9 @@ Route::get('/validar/{uudd}', function ($uudd) {
 
     return view('validar.resultados_qr', compact('participante'));
 })->name('validar.constancia');
+
+
+
+
+Route::get('/validar-acreditado/{codigo}', ValidacionAcreditado::class)
+     ->name('validar.acreditado');
