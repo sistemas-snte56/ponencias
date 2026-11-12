@@ -27,7 +27,7 @@ class DelegacionAsambleaSeeder extends Seeder
         $delegaciones_asambleas = json_decode($json, true);    
         
         // 2. Limpiar la tabla antes de rellenar para evitar duplicados
-        DelegacionAsamblea::truncate();
+        // DelegacionAsamblea::truncate();
 
         // 3. Procesar e insertar los registros
         foreach ($delegaciones_asambleas as $datos) {
