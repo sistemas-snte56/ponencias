@@ -153,32 +153,36 @@
 
                 </div>
 
-<!-- Acciones -->
-<div class="flex flex-col sm:flex-row justify-center gap-3 pt-5 border-t border-gray-100">
+                <!-- Acciones -->
+                <div class="flex flex-col sm:flex-row justify-center gap-3 pt-5 border-t border-gray-100">
 
-    <a href="{{ route('registro.index') }}"
-        class="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-xl border border-gray-300 bg-white text-gray-700 text-base font-semibold hover:bg-gray-50 transition">
+                    <!-- Inicio -->
+                    <a href="{{ route('registro.index') }}"
+                        wire:navigate
+                        class="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-xl border border-gray-300 bg-white text-gray-700 text-base font-semibold hover:bg-gray-50 transition">
 
-        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                d="M3 10l9-7 9 7v10a1 1 0 01-1 1h-5v-7h-6v7H4a1 1 0 01-1-1V10z"/>
-        </svg>
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M3 10l9-7 9 7v10a1 1 0 01-1 1h-5v-7h-6v7H4a1 1 0 01-1-1V10z"/>
+                        </svg>
 
-        Inicio
-    </a>
+                        Inicio
+                    </a>
 
-    <a href="{{ route('registro.index') }}"
-        class="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-xl bg-orange-600 hover:bg-orange-700 text-white text-base font-bold shadow-sm transition">
+                    <!-- Nuevo registro -->
+                    <a href="{{ route('registro.index') }}"
+                        wire:navigate
+                        class="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-xl bg-orange-600 hover:bg-orange-700 text-white text-base font-bold shadow-sm transition">
 
-        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                d="M12 4v16m8-8H4"/>
-        </svg>
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M12 4v16m8-8H4"/>
+                        </svg>
 
-        Nuevo registro
-    </a>
+                        Nuevo registro
+                    </a>
 
-</div>
+                </div>
 
             </div>
         </div>
