@@ -26,7 +26,7 @@ class AsambleaSeeder extends Seeder
         $acreditados = json_decode($json, true);
 
         // 2. Limpiar la tabla antes de rellenar para evitar duplicados
-        Asamblea::truncate();
+        // Asamblea::truncate();
 
         // 3. Procesar e insertar los registros
         foreach ($acreditados as $datos) {
