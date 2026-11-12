@@ -22,4 +22,9 @@ class Region extends Model
         return $this->hasMany(
             Delegacion::class,'region_id');
     }
+
+    public function delegaciones_asambleas(): HasMany
+    {
+        return $this->hasMany(DelegacionAsamblea::class, 'region_id');
+    }    
 }

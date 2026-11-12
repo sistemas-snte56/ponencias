@@ -1,0 +1,1928 @@
+[
+  {
+    "id": 1,
+    "region_id": 3,
+    "delegacion": "Delegación D-I-83",
+    "fecha_asamblea": "martes 17 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "EDIFICIO SINDICAL",
+    "domicilio": "NARCISO MENDOZA N°112, COL. TAJIN, C.P. 93330, POZA RICA DE HIDALGO, VERACRUZ"
+  },
+  {
+    "id": 2,
+    "region_id": 1,
+    "delegacion": "Delegación D-I-90",
+    "fecha_asamblea": "martes 17 de noviembre de 2026",
+    "hora": "15:25",
+    "recinto": "EDIFICIO SINDICAL PRIMARIAS TANTOYUCA",
+    "domicilio": "AVENIDA REVOLUCIÓN ESQUINA CARRETERA NACIONAL, COL. CENTRO, C.P. 92122, TANTOYUCA, VERACRUZ"
+  },
+  {
+    "id": 3,
+    "region_id": 1,
+    "delegacion": "Delegación D-IV-13",
+    "fecha_asamblea": "martes 17 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "EDIFICIO SINDICAL JUBILADOS TANTOYUCA",
+    "domicilio": "LAS FLORES S/N, COL. RUIZ CORTINES, C.P. 92123, TANTOYUCA, VERACRUZ"
+  },
+  {
+    "id": 4,
+    "region_id": 9,
+    "delegacion": "Delegación D-II-43",
+    "fecha_asamblea": "jueves 19 de noviembre de 2026",
+    "hora": "14:00",
+    "recinto": "MODULO SINDICAL SNTE 56",
+    "domicilio": "PARQUE 15 DE OCTUBRE S/N, COL. CENTRO, C.P. 95250, ALVARADO, VERACRUZ"
+  },
+  {
+    "id": 5,
+    "region_id": 1,
+    "delegacion": "Delegación D-II-35",
+    "fecha_asamblea": "jueves 19 de noviembre de 2026",
+    "hora": "15:00",
+    "recinto": "EDIFICIO SINDICAL PRIMARIAS TANTOYUCA",
+    "domicilio": "AVENIDA REVOLUCIÓN ESQUINA CARRETERA NACIONAL, COL. 10 DE MAYO, C.P. 92122, TANTOYUCA, VERACRUZ"
+  },
+  {
+    "id": 6,
+    "region_id": 9,
+    "delegacion": "Delegación D-II-14",
+    "fecha_asamblea": "martes 17 de noviembre de 2026",
+    "hora": "15:00",
+    "recinto": "BIBLIOTECA DE LA ESCUELA SECUNDARIA Y DE BACHILLERES DE ALVARADO MARCO ANTONIO MUÑOZ",
+    "domicilio": "NEZAHUALCÓYOTL S/N ,COL. CENTRO, C.P. 95250, ALVARADO, VERACRUZ"
+  },
+  {
+    "id": 7,
+    "region_id": 9,
+    "delegacion": "Delegación D-I-79",
+    "fecha_asamblea": "martes 17 de noviembre de 2026",
+    "hora": "15:00",
+    "recinto": "MODULO SINDICAL SNTE 56",
+    "domicilio": "PARQUE 15 DE OCTUBRE S/N, COL. CENTRO, C.P. 95250, ALVARADO, VER, VERACRUZ"
+  },
+  {
+    "id": 8,
+    "region_id": 3,
+    "delegacion": "Delegación D-II-47, C.T. 01",
+    "fecha_asamblea": "miércoles 18 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "EDIFICIO SINDICAL",
+    "domicilio": "DÍAZ MIRON ESQ. CARRIL, COL. PAPANTLA CENTRO, C.P. 93400, PAPANTLA, VERACRUZ"
+  },
+  {
+    "id": 9,
+    "region_id": 9,
+    "delegacion": "Delegación D-I-6",
+    "fecha_asamblea": "martes 17 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "ESCUELA PRIMARIA ALVARADO BENITO JUÁREZ",
+    "domicilio": "NICOLAS BRAVO S/N COL. CENTRO, C.P. 95250, ALVARADO, VERACRUZ"
+  },
+  {
+    "id": 10,
+    "region_id": 1,
+    "delegacion": "Delegación D-IV-23",
+    "fecha_asamblea": "martes 17 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "AYUNTAMIENTO #622",
+    "domicilio": "BUROCRATA, COL. BURÓCRATA, C.P. 93998, PÁNUCO, VERACRUZ"
+  },
+  {
+    "id": 11,
+    "region_id": 6,
+    "delegacion": "Delegación D-II-40",
+    "fecha_asamblea": "martes 17 de noviembre de 2026",
+    "hora": "15:00",
+    "recinto": "SECUNDARIA GENERAL JUSTO SIERRA",
+    "domicilio": "PASEO DE LAS AVES 286, COL. PUENTE MORENO, C.P. 94274, MEDELLÍN, VERACRUZ"
+  },
+  {
+    "id": 12,
+    "region_id": 9,
+    "delegacion": "Delegación D-IV-21",
+    "fecha_asamblea": "martes 17 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "MODULO SINDICAL SNTE 56",
+    "domicilio": "PARQUE 15 DE OCTUBRE S/N, COL. CENTRO, C.P. 95250, ALVARADO, VERACRUZ"
+  },
+  {
+    "id": 13,
+    "region_id": 3,
+    "delegacion": "Delegación D-IV-15",
+    "fecha_asamblea": "miércoles 18 de noviembre de 2026",
+    "hora": "15:00",
+    "recinto": "EDIFICIO SINDICAL",
+    "domicilio": "DÍAZ MIRON ESQ. CARRIL, COL. PAPANTLA CENTRO, C.P. 93400, PAPANTLA, VERACRUZ"
+  },
+  {
+    "id": 14,
+    "region_id": 6,
+    "delegacion": "Delegación D-I-58",
+    "fecha_asamblea": "martes 17 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "COLEGIO PARTICULAR ANTONIO CASO",
+    "domicilio": "2 DE ABRIL 385, COL. IGNACIO ZARAGOZA, C.P. 91910, VERACRUZ, VERACRUZ"
+  },
+  {
+    "id": 15,
+    "region_id": 3,
+    "delegacion": "Delegación D-II-7",
+    "fecha_asamblea": "martes 17 de noviembre de 2026",
+    "hora": "15:00",
+    "recinto": "SALA AUDIOVISUAL ESBO",
+    "domicilio": "AVENIDA PALMAS S/N, FRACCIONAMIENTO LAS PALMAS, C.P. 93230, POZA RICA DE HIDALGO, VERACRUZ"
+  },
+  {
+    "id": 16,
+    "region_id": 1,
+    "delegacion": "Delegación D-II-59",
+    "fecha_asamblea": "martes 17 de noviembre de 2026",
+    "hora": "15:00",
+    "recinto": "BIBLIOTECA DE LA ESCUELA SECUNDARIA OFICIAL PANUCO",
+    "domicilio": "CALLE VENUSTIANO CARRANZA #1, COL. 10 DE MAYO, C.P. 93990, PÁNUCO, VERACRUZ"
+  },
+  {
+    "id": 17,
+    "region_id": 6,
+    "delegacion": "Delegación D-I-7",
+    "fecha_asamblea": "martes 17 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "AUDITORIO DE IVD",
+    "domicilio": "PASEO LAS FLORES S/N, FRACCIONAMIENTO VIRGINIA, C.P. 94294, BOCA DEL RÍO, VERACRUZ"
+  },
+  {
+    "id": 18,
+    "region_id": 6,
+    "delegacion": "Delegación D-II-49",
+    "fecha_asamblea": "martes 17 de noviembre de 2026",
+    "hora": "15:00",
+    "recinto": "BIBLIOTECA VENUSTIANO CARRANZA",
+    "domicilio": "ZARAGOZA S/N ENTRE CANAL Y MORALES, COL. VERACRUZ CENTRO, C.P. 91700, VERACRUZ, VERACRUZ"
+  },
+  {
+    "id": 19,
+    "region_id": 1,
+    "delegacion": "Delegación D-I-52",
+    "fecha_asamblea": "martes 17 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "SALON GANADERA",
+    "domicilio": "CALLE REFORMA, COL. TEMPOAL CENTRO, C.P. 92060, TEMPOAL, VERACRUZ"
+  },
+  {
+    "id": 20,
+    "region_id": 3,
+    "delegacion": "Delegación D-I-85",
+    "fecha_asamblea": "martes 17 de noviembre de 2026",
+    "hora": "15:00",
+    "recinto": "EDIFICIO SINDICAL",
+    "domicilio": "DIAZ MIRON ESQ. CARRIL, COL. PAPANTLA CENTRO, C.P. 93400, PAPANTLA, VERACRUZ"
+  },
+  {
+    "id": 21,
+    "region_id": 6,
+    "delegacion": "Delegación D-IV-1",
+    "fecha_asamblea": "martes 17 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "SINDICATO DE TELEFONISTAS",
+    "domicilio": "CARLOS CRUZ 463, COL. VERACRUZ CENTRO, C.P. 91700, VERACRUZ, VERACRUZ"
+  },
+  {
+    "id": 22,
+    "region_id": 3,
+    "delegacion": "Delegación D-III-12",
+    "fecha_asamblea": "martes 17 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "EDIFICIO SINDICAL",
+    "domicilio": "NARCISO MENDOZA N°112, COL. TAJIN, C.P. 93330, POZA RICA DE HIDALGO, VERACRUZ"
+  },
+  {
+    "id": 23,
+    "region_id": 6,
+    "delegacion": "Delegación D-II-5",
+    "fecha_asamblea": "martes 17 de noviembre de 2026",
+    "hora": "15:00",
+    "recinto": "ESCUELA SECUNDARIA JOSÉ AZUETA",
+    "domicilio": "PASEO JARDIN 113, FRACC. VIRGINIA, C.P. 94294, BOCA DEL RÍO, VERACRUZ"
+  },
+  {
+    "id": 24,
+    "region_id": 10,
+    "delegacion": "Delegación D-I-29",
+    "fecha_asamblea": "martes 17 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "EDIFICIO SINDICAL",
+    "domicilio": "GUADALUPE VICTORIA 12 ESQ. CUAHUTEMOC, COL. LERDO DE TEJADA CENTRO, C.P. 95280, LERDO DE TEJADA, VERACRUZ"
+  },
+  {
+    "id": 25,
+    "region_id": 6,
+    "delegacion": "Delegación D-I-43",
+    "fecha_asamblea": "martes 17 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "SALON DE JUNTAS GANADERA",
+    "domicilio": "VICENTE GUERRERO S/N, COL. CENTRO, C.P. 95226, TLALIXCOYAN, VERACRUZ"
+  },
+  {
+    "id": 26,
+    "region_id": 10,
+    "delegacion": "Delegación D-II-51",
+    "fecha_asamblea": "martes 17 de noviembre de 2026",
+    "hora": "15:00",
+    "recinto": "EDIFICIO SINDICAL",
+    "domicilio": "GUADALUPE VICTORIA 12 ESQ. CUAHUTEMOC, COL. LERDO DE TEJADA CENTRO, C.P. 95280, LERDO DE TEJADA, VERACRUZ"
+  },
+  {
+    "id": 27,
+    "region_id": 1,
+    "delegacion": "Delegación D-I-51",
+    "fecha_asamblea": "martes 17 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "CASA DE LA CULTURA",
+    "domicilio": "FRANCISCO IGNACIO MADERO #103, COL. CENTRO, C.P. 92120, TANTOYUCA, VERACRUZ"
+  },
+  {
+    "id": 28,
+    "region_id": 3,
+    "delegacion": "Delegación D-II-33",
+    "fecha_asamblea": "martes 17 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "CENTRO SOCIAL COATZINTECO",
+    "domicilio": "AVENIDA REFORMA, COL. ADOLFO RUÍZ CORTINES, C.P. 93166, COATZINTLA, VERACRUZ"
+  },
+  {
+    "id": 29,
+    "region_id": 6,
+    "delegacion": "Delegación D-IV-27",
+    "fecha_asamblea": "martes 17 de noviembre de 2026",
+    "hora": "15:00",
+    "recinto": "ESCUELA ALEJANDRO MOLINA",
+    "domicilio": "BRAVO AHUJA 1 ESQUINA EJERCITO MEXICANO, COL. PRIMERO DE MAYO, C.P. 94298, BOCA DEL RÍO, VERACRUZ"
+  },
+  {
+    "id": 30,
+    "region_id": 10,
+    "delegacion": "Delegación D-I-68, C.T. 36",
+    "fecha_asamblea": "martes 17 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "JARDIN DE EVENTOS EL HUATEQUE",
+    "domicilio": "PRIVADA LOS COCUITES S/N, COL. NUEVA AMPLIACION DE BOSQUE, C.P. 95384, SANTIAGO TUXTLA, VER, VERACRUZ"
+  },
+  {
+    "id": 31,
+    "region_id": 6,
+    "delegacion": "Delegación D-I-50",
+    "fecha_asamblea": "martes 17 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "EDIFICIO SINDICAL",
+    "domicilio": "FRANCISCO JAVIER MINA 470, COL. LOS PINOS, C.P. 94244, SOLEDAD DE DOBLADO, VERACRUZ"
+  },
+  {
+    "id": 32,
+    "region_id": 1,
+    "delegacion": "Delegación D-I-91",
+    "fecha_asamblea": "martes 17 de noviembre de 2026",
+    "hora": "15:00",
+    "recinto": "CBTIS 55 FRANCISCO JAVIER MINA",
+    "domicilio": "VENUSTIANO CARRANZA S/N, COL. INDEPENDENCIA Y LIBERTAD, C.P. 93994, PÁNUCO, VERACRUZ"
+  },
+  {
+    "id": 33,
+    "region_id": 3,
+    "delegacion": "Delegación D-I-69",
+    "fecha_asamblea": "martes 17 de noviembre de 2026",
+    "hora": "15:00",
+    "recinto": "EDIFICIO SINDICAL",
+    "domicilio": "RAFAEL ARREOLA ESQ. MAESTROS VERACRUZANOS, COL. MAGISTERIAL, C.P. 92930, TIHUATLÁN, VERACRUZ"
+  },
+  {
+    "id": 34,
+    "region_id": 10,
+    "delegacion": "Delegación D-I-48",
+    "fecha_asamblea": "miércoles 18 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "EDIFICIO SINDICAL",
+    "domicilio": "DR. ARTIGAS #294, COL. SAN ANDRES TUXTLA CENTRO, C.P. 95700, SAN ANDRÉS TUXTLA, VERACRUZ"
+  },
+  {
+    "id": 35,
+    "region_id": 6,
+    "delegacion": "Delegación D-IV-5, C.T. C.T.10",
+    "fecha_asamblea": "martes 17 de noviembre de 2026",
+    "hora": "15:00",
+    "recinto": "EDIFICIO SINDICAL",
+    "domicilio": "FRANCISCO JAVIER MINA 470, COL. LOS PINOS, C.P. 94244, SOLEDAD DE DOBLADO, VERACRUZ"
+  },
+  {
+    "id": 36,
+    "region_id": 10,
+    "delegacion": "Delegación D-I-41",
+    "fecha_asamblea": "martes 17 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "EDIFICIO SINDICAL",
+    "domicilio": "DR. ARTIGAS #294, COL. SAN ANDRES TUXTLA CENTRO, C.P. 95700, SAN ANDRÉS TUXTLA, VERACRUZ"
+  },
+  {
+    "id": 37,
+    "region_id": 6,
+    "delegacion": "Delegación D-III-18, C.T. 06, C.T. 32",
+    "fecha_asamblea": "martes 17 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "SALÓN SOCIAL CASA BLANCA",
+    "domicilio": "ABASOLO 490, COL. CASA BLANCA, C.P. 91658, PUENTE NACIONAL, VERACRUZ"
+  },
+  {
+    "id": 38,
+    "region_id": 1,
+    "delegacion": "Delegación D-I-72",
+    "fecha_asamblea": "martes 17 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "JARDÍN DE NIÑOS ENRIQUE LABSCHER",
+    "domicilio": "CEDRO, S/N, COL. ANAHUAC, LOC. PUEBLO VIEJO, CP 92035"
+  },
+  {
+    "id": 39,
+    "region_id": 3,
+    "delegacion": "Delegación D-IV-24",
+    "fecha_asamblea": "martes 17 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "EDIFICIO SINDICAL",
+    "domicilio": "ABASOLO N°44, COL. GUTIÉRREZ ZAMORA CENTRO, C.P. 93556, GUTIÉRREZ ZAMORA, VERACRUZ"
+  },
+  {
+    "id": 40,
+    "region_id": 10,
+    "delegacion": "Delegación D-II-16, Delegación D-III-19",
+    "fecha_asamblea": "martes 17 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "EDIFICIO SINDICAL",
+    "domicilio": "DR. ARTIGAS #294, COL. SAN ANDRES TUXTLA CENTRO, C.P. 95700, SAN ANDRÉS TUXTLA, VERACRUZ"
+  },
+  {
+    "id": 41,
+    "region_id": 10,
+    "delegacion": "Delegación D-IV-3",
+    "fecha_asamblea": "jueves 19 de noviembre de 2026",
+    "hora": "10:00",
+    "recinto": "EIDIFCIO SINDICAL",
+    "domicilio": "DR. ARTIGAS #294, COL. SAN ANDRES TUXTLA CENTRO, C.P. 95700, SAN ANDRÉS TUXTLA, VERACRUZ"
+  },
+  {
+    "id": 42,
+    "region_id": 6,
+    "delegacion": "Delegación D-II-6, C.T. 15, C.T. 19, C.T. 22",
+    "fecha_asamblea": "martes 17 de noviembre de 2026",
+    "hora": "15:00",
+    "recinto": "AUDITORIO ILUSTRE",
+    "domicilio": "BLVD RUIZ CORTINEZ S/N, COL. COSTA VERDE, C.P. 94294, BOCA DEL RÍO, VERACRUZ"
+  },
+  {
+    "id": 43,
+    "region_id": 3,
+    "delegacion": "Delegación D-I-67",
+    "fecha_asamblea": "martes 17 de noviembre de 2026",
+    "hora": "15:00",
+    "recinto": "EDIFICIO SINDICAL",
+    "domicilio": "ABASOLO N°44, COL. GUTIÉRREZ ZAMORA CENTRO, C.P. 93556, GUTIÉRREZ ZAMORA, VERACRUZ"
+  },
+  {
+    "id": 44,
+    "region_id": 6,
+    "delegacion": "Delegación D-IV-30",
+    "fecha_asamblea": "martes 17 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "CBTA36",
+    "domicilio": "MIGUEL ALEMÁN S/N, COL. IGNACIO DE LA LLAVE, C.P. 95240, IGNACIO DE LA LLAVE, VERACRUZ"
+  },
+  {
+    "id": 45,
+    "region_id": 10,
+    "delegacion": "Delegación D-I-89, Delegación D-II-28",
+    "fecha_asamblea": "miércoles 18 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "JARDIN DE NIÑOS ENRIQUE PESTALOZZI",
+    "domicilio": "AVENIDA 20 DE NOVIEMBRE ESQUINA EMILIANO ZAPATA, COL. CENTRO, C.P. 95641, ISLA, VERACRUZ"
+  },
+  {
+    "id": 46,
+    "region_id": 10,
+    "delegacion": "Delegación D-I-25",
+    "fecha_asamblea": "miércoles 18 de noviembre de 2026",
+    "hora": "14:00",
+    "recinto": "ESCUELA PRIMARIA MARIANO AGUIRRE USCANGA",
+    "domicilio": "NARCIZO MENDOZA SUR 117, COL. MARIANO AGUIRRE USCANGA, C.P. 95642, ISLA, VERACRUZ"
+  },
+  {
+    "id": 47,
+    "region_id": 1,
+    "delegacion": "Delegación D-I-44",
+    "fecha_asamblea": "miércoles 18 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "EDIFICIO SINDICAL, PLATONI S/N, COL. EL MAGUEY, PLATÓN SÁNCHEZ, VER.",
+    "domicilio": "PLATONI S/N, COL. MAGUEY, C.P. 92147, PLATÓN SÁNCHEZ, VERACRUZ"
+  },
+  {
+    "id": 48,
+    "region_id": 7,
+    "delegacion": "Delegación D-I-66",
+    "fecha_asamblea": "martes 17 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "CRAM CÓRDOBA",
+    "domicilio": "AV. 15 BIS, COL. NUEVO CÓRDOBA, C.P. 94550, CÓRDOBA, VERACRUZ"
+  },
+  {
+    "id": 49,
+    "region_id": 3,
+    "delegacion": "Delegación D-I-40",
+    "fecha_asamblea": "martes 17 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "EDIFICIO SINDICAL",
+    "domicilio": "DÍAZ MIRON ESQ. CARRIL, COL. PAPANTLA CENTRO, C.P. 93400, PAPANTLA, VERACRUZ"
+  },
+  {
+    "id": 50,
+    "region_id": 10,
+    "delegacion": "Delegación D-IV-26",
+    "fecha_asamblea": "miércoles 18 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "ESCUELA PRIMARIA MARIANO AGUIRRE USCANGA",
+    "domicilio": "NARCIZO MENDOZA SUR 117, COL. MARIANO AGUIRRE USCANGA, C.P. 95642, ISLA, VERACRUZ"
+  },
+  {
+    "id": 51,
+    "region_id": 7,
+    "delegacion": "Delegación D-I-76",
+    "fecha_asamblea": "martes 17 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "EDIFICIO SINDICAL",
+    "domicilio": "VENUSTIANO CARRANZA 213, COL. CENTRO, C.P. 94050, TOTUTLA, VERACRUZ"
+  },
+  {
+    "id": 52,
+    "region_id": 3,
+    "delegacion": "Delegación D-IV-31",
+    "fecha_asamblea": "martes 17 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "EDIFICIO SINDICAL",
+    "domicilio": "RAFAEL ARREOLA ESQ. MAESTROS VERACRUZANOS, COL. MAGISTERIAL, C.P. 92930, TIHUATLÁN, VERACRUZ"
+  },
+  {
+    "id": 53,
+    "region_id": 7,
+    "delegacion": "Delegación D-II-9, C.T. 16",
+    "fecha_asamblea": "martes 17 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "BIBLIOTECA DEL ESBAO",
+    "domicilio": "AV 11 2806 DOS CAMINOS, COL. DEL MAESTRO, C.P. 94550, CÓRDOBA, VERACRUZ"
+  },
+  {
+    "id": 54,
+    "region_id": 10,
+    "delegacion": "Delegación D-I-45",
+    "fecha_asamblea": "martes 17 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "ESCUELA PRIMARIA MIGUEL HIDALGO Y COSTILLA",
+    "domicilio": "JOSEFA ORTIZ DE DOMINGUEZ 33, COL. LA FLORIDA, C.P. 95600, PLAYA VICENTE, VERACRUZ"
+  },
+  {
+    "id": 55,
+    "region_id": 1,
+    "delegacion": "Delegación D-I-18",
+    "fecha_asamblea": "miércoles 18 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "SALÓN SOCIAL DE MÉXICO",
+    "domicilio": "CARRETERA ESTATAL CHICONTEPEC, SAN SEBASTIAN, MEXCATLA, CP 92709"
+  },
+  {
+    "id": 56,
+    "region_id": 7,
+    "delegacion": "Delegación D-II-31",
+    "fecha_asamblea": "martes 17 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "AGENCIA MUNICIPAL",
+    "domicilio": "CALLE MORALES S/N, COL. MONTE BLANCO, C.P. 94466, FORTÍN, VERACRUZ"
+  },
+  {
+    "id": 57,
+    "region_id": 3,
+    "delegacion": "Delegación D-I-26",
+    "fecha_asamblea": "martes 17 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "EDIFICIO SINDICAL",
+    "domicilio": "16 DE SEPTIEMBRE S/N, BARRIO POCHOCHO, C.P. 92682, IXHUATLAN DE MADERO, VERACRUZ"
+  },
+  {
+    "id": 58,
+    "region_id": 7,
+    "delegacion": "Delegación D-III-11",
+    "fecha_asamblea": "martes 17 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "SALÓN SHANGRILA",
+    "domicilio": "AV. LOS PINOS 62A, COL. INDECO SHANGRI-LA, C.P. 94476, FORTÍN, VERACRUZ"
+  },
+  {
+    "id": 59,
+    "region_id": 1,
+    "delegacion": "Delegación D-II-18",
+    "fecha_asamblea": "miércoles 18 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "TELEBACHILLERATO CHICONTEPEC",
+    "domicilio": "CARRETERA IMSS BENITO JUÁREZ"
+  },
+  {
+    "id": 60,
+    "region_id": 7,
+    "delegacion": "Delegación D-III-21, C.T. 02, C.T. 12",
+    "fecha_asamblea": "martes 17 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "EDIFICIO SINDICAL",
+    "domicilio": "11 SUR S/N, COL. HUATUSCO DE CHICUELLAR CENTRO, C.P. 94100, HUATUSCO, VERACRUZ"
+  },
+  {
+    "id": 61,
+    "region_id": 9,
+    "delegacion": "Delegación D-II-8",
+    "fecha_asamblea": "martes 17 de noviembre de 2026",
+    "hora": "15:00",
+    "recinto": "SECUNDARIA Y BACHILLERES LUIS ANGEL BEAUREGARD",
+    "domicilio": "BENITO FENTANES S/N, COL. CENTRO, C.P. 95400, COSAMALOAPAN, VERACRUZ"
+  },
+  {
+    "id": 62,
+    "region_id": 3,
+    "delegacion": "Delegación D-I-4",
+    "fecha_asamblea": "miércoles 18 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "EDIFICIO SINDICAL",
+    "domicilio": "FELIPE ANGELES N° 124, COL. AVIACIÓN, C.P. 92735, ÁLAMO TEMAPACHE, VERACRUZ"
+  },
+  {
+    "id": 63,
+    "region_id": 11,
+    "delegacion": "Delegación D-I-12",
+    "fecha_asamblea": "martes 17 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "SALON DE EVENTOS SDTEV",
+    "domicilio": "FLORES MAGON 1404, COL. BENITO JUÁREZ, C.P. 96576, COATZACOALCOS, VERACRUZ"
+  },
+  {
+    "id": 64,
+    "region_id": 7,
+    "delegacion": "Delegación D-I-64",
+    "fecha_asamblea": "jueves 19 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "CASA DEL JUBILADO",
+    "domicilio": "SAN MARCIAL 42, COL. FORTÍN DE LAS FLORES CENTRO, C.P. 94470, FORTÍN, VERACRUZ"
+  },
+  {
+    "id": 65,
+    "region_id": 11,
+    "delegacion": "Delegación D-IV-19",
+    "fecha_asamblea": "martes 17 de noviembre de 2026",
+    "hora": "15:00",
+    "recinto": "ESCUELA Y BACHILLERES MIGUEL ALEMAN",
+    "domicilio": "16 DE SEPTIEMBRE 1001, COL. COATZACOALCOS CENTRO, C.P. 96400, COATZACOALCOS, VERACRUZ"
+  },
+  {
+    "id": 66,
+    "region_id": 3,
+    "delegacion": "Delegación D-II-19",
+    "fecha_asamblea": "miércoles 18 de noviembre de 2026",
+    "hora": "15:00",
+    "recinto": "EDIFICIO SINDICAL",
+    "domicilio": "FELIPE ÁNGELES N°124, COL. AVIACIÓN, C.P. 92735, ÁLAMO TEMAPACHE, VERACRUZ"
+  },
+  {
+    "id": 67,
+    "region_id": 7,
+    "delegacion": "Delegación D-I-14",
+    "fecha_asamblea": "jueves 19 de noviembre de 2026",
+    "hora": "15:00",
+    "recinto": "SALON TRATADOS DE CORDOBA",
+    "domicilio": "AV. 3, COL. CÓRDOBA CENTRO, C.P. 94500, CÓRDOBA, VERACRUZ"
+  },
+  {
+    "id": 68,
+    "region_id": 9,
+    "delegacion": "Delegación D-I-15",
+    "fecha_asamblea": "martes 17 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "CASA AURORA FERAT DE ZAMACONA",
+    "domicilio": "NICOLÁS BRAVO 176, COL. CENTRO, C.P. 95400, COSAMALOAPAN, VERACRUZ"
+  },
+  {
+    "id": 69,
+    "region_id": 11,
+    "delegacion": "Delegación D-I-17",
+    "fecha_asamblea": "martes 17 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "ESCUELA SECUNDARIA TECNICA NUM 63",
+    "domicilio": "FERNANDO LOPEZ ARIAS BARRIO PRIMERO, BARRIO PRIMERO, C.P. 96340, COSOLEACAQUE, VERACRUZ"
+  },
+  {
+    "id": 70,
+    "region_id": 1,
+    "delegacion": "Delegación D-IV-22",
+    "fecha_asamblea": "miércoles 18 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "EDIFICIO SINDICAL PRIMARIAS CHICONTEPEC",
+    "domicilio": "CALLE LIBERTAD S/N, COL. CENTRO, C.P. 92700, CHICONTEPEC, VERACRUZ"
+  },
+  {
+    "id": 71,
+    "region_id": 7,
+    "delegacion": "Delegación D-IV-16",
+    "fecha_asamblea": "jueves 19 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "CASA DEL JUBILADO",
+    "domicilio": "AV. SAN MARCIAL 42, COL. SANTA LETICIA, C.P. 94470, FORTÍN, VERACRUZ"
+  },
+  {
+    "id": 72,
+    "region_id": 11,
+    "delegacion": "Delegación D-I-32",
+    "fecha_asamblea": "martes 17 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "SALON VIDOS",
+    "domicilio": "AVENIDA HEROICO C MILITAR, COL. PETROLERA, C.P. 96850, MINATITLÁN, VERACRUZ"
+  },
+  {
+    "id": 73,
+    "region_id": 9,
+    "delegacion": "Delegación D-II-3O, Delegación D-III-20",
+    "fecha_asamblea": "martes 17 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "CENTRO RECREATIVO LOS PINOS",
+    "domicilio": "CALLE PINO ESQ CIPRE, CENTRO, COSAMALOAPAN, C.P. 95400"
+  },
+  {
+    "id": 74,
+    "region_id": 7,
+    "delegacion": "Delegación D-I-16",
+    "fecha_asamblea": "jueves 19 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "TEATRO BENITO JUAREZ",
+    "domicilio": "AV. BENITO JUAREZ 9, COL. CENTRO, C.P. 94140, COSCOMATEPEC, VERACRUZ"
+  },
+  {
+    "id": 75,
+    "region_id": 3,
+    "delegacion": "Delegación D-II-54",
+    "fecha_asamblea": "jueves 19 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "EDIFICIO SINDICAL",
+    "domicilio": "FELIPE ÁNGELES N°124, COL. AVIACIÓN, C.P. 92735, ÁLAMO TEMAPACHE, VERACRUZ"
+  },
+  {
+    "id": 76,
+    "region_id": 11,
+    "delegacion": "Delegación D-II-44",
+    "fecha_asamblea": "martes 17 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "HOTEL PLAZA",
+    "domicilio": "GUADALUPE VICTORIA 37, COL. CENTRO, C.P. 96000, ACAYUCAN, VERACRUZ"
+  },
+  {
+    "id": 77,
+    "region_id": 7,
+    "delegacion": "Delegación D-I-22",
+    "fecha_asamblea": "jueves 19 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "EDIFICIO SINDICAL",
+    "domicilio": "CALLE 2 PONIENTE A. RICARDO BALLINAS, COL. CENTRO, C.P. 94472, FORTÍN, VERACRUZ"
+  },
+  {
+    "id": 78,
+    "region_id": 1,
+    "delegacion": "Delegación D-III-17",
+    "fecha_asamblea": "miércoles 18 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "SALON DE USOS MULTIPLES ESCUELA PRIMARIA NETZAHUALCOYOTL",
+    "domicilio": "CARRETERA NACIONAL TUXPAN-TAMPICO, COL. EL PLATANAL, C.P. 92125, TANTOYUCA, VERACRUZ"
+  },
+  {
+    "id": 79,
+    "region_id": 11,
+    "delegacion": "Delegación D-I-13",
+    "fecha_asamblea": "miércoles 18 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "ESCUELA PRIMARIA FRANCISCO J MINA",
+    "domicilio": "FRANCISCO I MADERO 405, COL. CENTRO, C.P. 96400, COATZACOALCOS, VERACRUZ"
+  },
+  {
+    "id": 80,
+    "region_id": 3,
+    "delegacion": "Delegación D-IV-14",
+    "fecha_asamblea": "martes 17 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "EDIFICIO SINDICAL",
+    "domicilio": "FELIPE ÁNGELES N°124, COL. AVIACIÓN, C.P. 92735, ÁLAMO TEMAPACHE, VERACRUZ"
+  },
+  {
+    "id": 81,
+    "region_id": 11,
+    "delegacion": "Delegación D-I-2",
+    "fecha_asamblea": "miércoles 18 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "SALON DE USOS MULTPLES DE LA SUPERVISION ESCOLAR 028",
+    "domicilio": "MELCHOR OCAMPO SUR NUM 1 ESQ. MARCO ANTONIO MUÑOZ, COL. CENTRO, C.P. 96000, ACAYUCAN, VERACRUZ"
+  },
+  {
+    "id": 82,
+    "region_id": 9,
+    "delegacion": "Delegación D-I-63",
+    "fecha_asamblea": "miércoles 18 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "TELEBACHILLERATO",
+    "domicilio": "JESÚS GARCÍA S/N, COL. ALTAMIRANO, C.P. 95400, COSAMALOAPAN, VERACRUZ"
+  },
+  {
+    "id": 83,
+    "region_id": 1,
+    "delegacion": "Delegación D-IV-II",
+    "fecha_asamblea": "miércoles 18 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "EDIFICIO SINDICAL PRIMARIAS TEMPOAL",
+    "domicilio": "URSULO GALVAN S\\N, COL. REVOLUCIÓN VERDE, C.P. 92064, TEMPOAL, VERACRUZ"
+  },
+  {
+    "id": 84,
+    "region_id": 3,
+    "delegacion": "Delegación D-II-41",
+    "fecha_asamblea": "miércoles 18 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "EDIFICIO SINDICAL",
+    "domicilio": "NARCISO MENDOZA N°112, COL. TAJIN, C.P. 93330, POZA RICA DE HIDALGO, VERACRUZ"
+  },
+  {
+    "id": 85,
+    "region_id": 11,
+    "delegacion": "Delegación D-I-86",
+    "fecha_asamblea": "miércoles 18 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "CENTRO DE ATENCION MULTIPLE MARGARIA NIETO H",
+    "domicilio": "CARRETERA DEL GOLFO, COL. VILLA ALTA, C.P. 96026, ACAYUCAN, VERACRUZ"
+  },
+  {
+    "id": 86,
+    "region_id": 7,
+    "delegacion": "Delegación D-I-23",
+    "fecha_asamblea": "jueves 19 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "EDIFICIO SINDICAL",
+    "domicilio": "CALLE 11 SUR S/N, COL. HUATUSCO DE CHICUELLAR CENTRO, C.P. 94100, HUATUSCO, VERACRUZ"
+  },
+  {
+    "id": 87,
+    "region_id": 7,
+    "delegacion": "Delegación D-I-36",
+    "fecha_asamblea": "jueves 19 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "EDIFICIO SINDICAL",
+    "domicilio": "JOSÉ MARÍA MORELOS S/N, COL. OMEALCA, C.P. 94900, OMEALCA, VERACRUZ"
+  },
+  {
+    "id": 88,
+    "region_id": 11,
+    "delegacion": "Delegación D-II-52",
+    "fecha_asamblea": "miércoles 18 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "ESC. SEC. Y BACHILLERES MINATITLA",
+    "domicilio": "CONSTITUCIÓN, COL. 20 DE NOVIEMBRE, C.P. 96840, MINATITLÁN, VERACRUZ"
+  },
+  {
+    "id": 89,
+    "region_id": 1,
+    "delegacion": "Delegación D-I-39",
+    "fecha_asamblea": "miércoles 18 de noviembre de 2026",
+    "hora": "15:00",
+    "recinto": "EDIFICIO SINDICAL PRIMARIA PANUCO",
+    "domicilio": "AYUNTAMIENTO, COL. BURÓCRATA, C.P. 93998, PÁNUCO, VERACRUZ"
+  },
+  {
+    "id": 90,
+    "region_id": 9,
+    "delegacion": "Delegación D-IV-6",
+    "fecha_asamblea": "miércoles 18 de noviembre de 2026",
+    "hora": "10:00",
+    "recinto": "CASA DE CULTURA AURORA FERAT DE ZAMACONA",
+    "domicilio": "NICOLÁS BRAVO 176, COL. CENTRO, C.P. 95400, COSAMALOAPAN, VERACRUZ"
+  },
+  {
+    "id": 91,
+    "region_id": 11,
+    "delegacion": "Delegación D-II-23",
+    "fecha_asamblea": "miércoles 18 de noviembre de 2026",
+    "hora": "15:00",
+    "recinto": "ESC. Y BACHILLERES MIGUEL ALEMAN",
+    "domicilio": "16 DE SEPTIEMBRE 1001, COL. CENTRO, C.P. 96400, COATZACOALCOS, VERACRUZ"
+  },
+  {
+    "id": 92,
+    "region_id": 7,
+    "delegacion": "Delegación D-I-42",
+    "fecha_asamblea": "jueves 19 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "SALÓN DE MAESTROS FEDERALES DEL SNTE 32",
+    "domicilio": "AV. NACIONAL S/N, COL. PASO DEL MACHO CENTRO, C.P. 94970, PASO DEL MACHO, VERACRUZ"
+  },
+  {
+    "id": 93,
+    "region_id": 3,
+    "delegacion": "Delegación D-I-46",
+    "fecha_asamblea": "miércoles 18 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "CLUB DE LEONES",
+    "domicilio": "2 DE ENERO N°106, COL. CAZONES, C.P. 93230, POZA RICA DE HIDALGO, VERACRUZ"
+  },
+  {
+    "id": 94,
+    "region_id": 11,
+    "delegacion": "Delegación D-IV-20",
+    "fecha_asamblea": "miércoles 18 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "HOTEL PLAZA",
+    "domicilio": "GUADALUPE VICTORIA NUM. 37, COL. CENTRO, C.P. 96000, ACAYUCAN, VERACRUZ"
+  },
+  {
+    "id": 95,
+    "region_id": 8,
+    "delegacion": "Delegación D-II-26",
+    "fecha_asamblea": "miércoles 18 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "EDIFICIO EX FACULTAD DE INGENIERIA",
+    "domicilio": "CALLE 16 DE SEPTIEMBRE S/N, COL. CIUDAD MENDOZA CENTRO, C.P. 94740, CAMERINO Z. MENDOZA, VERACRUZ"
+  },
+  {
+    "id": 96,
+    "region_id": 3,
+    "delegacion": "Delegación D-IV-10",
+    "fecha_asamblea": "jueves 19 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "EDIFICIO SINDICAL",
+    "domicilio": "NARCISO MENDOZA N°112, COL. TAJIN, C.P. 93330, POZA RICA DE HIDALGO, VERACRUZ"
+  },
+  {
+    "id": 97,
+    "region_id": 11,
+    "delegacion": "Delegación D-III-22",
+    "fecha_asamblea": "miércoles 18 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "ESC. LIBERTADOR MIGUEL HIDALGO",
+    "domicilio": "PARIS BUENOS AIRES, COL. NUEVA MINA, C.P. 96760, MINATITLÁN, VERACRUZ"
+  },
+  {
+    "id": 98,
+    "region_id": 1,
+    "delegacion": "Delegación D-IV-35",
+    "fecha_asamblea": "jueves 19 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "SALON DE EVENTOS ELENA",
+    "domicilio": "FRANCISCO SARABIA ENTRE SONORA Y SALTILLO, COL. 1° DE MAYO, C.P. 89450, CIUDAD MADERO, VERACRUZ"
+  },
+  {
+    "id": 99,
+    "region_id": 8,
+    "delegacion": "Delegación D-I-3",
+    "fecha_asamblea": "miércoles 18 de noviembre de 2026",
+    "hora": "15:00",
+    "recinto": "SALÓN COSTILLA DEL ABUELO",
+    "domicilio": "AV. MARIANO MATAMOROS 1215, COL. CIUDAD MENDOZA CENTRO, C.P. 94740, CAMERINO Z. MENDOZA, VERACRUZ"
+  },
+  {
+    "id": 100,
+    "region_id": 11,
+    "delegacion": "Delegación D-II-11",
+    "fecha_asamblea": "miércoles 18 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "ESC. SEC. Y BACHILLERES MIGUEL ALEMAN",
+    "domicilio": "16 DE SEPTIEMBRE 1001, COL. CENTRO, C.P. 96400, COATZACOALCOS, VERACRUZ"
+  },
+  {
+    "id": 101,
+    "region_id": 8,
+    "delegacion": "Delegación D-I-10",
+    "fecha_asamblea": "miércoles 18 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "DYMMS SALÓN DE EVENTOS",
+    "domicilio": "CALLE PAULINO MARTINEZ 18, COL. CIUDAD MENDOZA CENTRO, C.P. 94744, CAMERINO Z. MENDOZA, VERACRUZ"
+  },
+  {
+    "id": 102,
+    "region_id": 11,
+    "delegacion": "Delegación D-IV-25",
+    "fecha_asamblea": "jueves 19 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "HOTEL MADRID",
+    "domicilio": "MINA, COL. NUEVA M, C.P. 96760, MINATITLÁN, VERACRUZ"
+  },
+  {
+    "id": 103,
+    "region_id": 3,
+    "delegacion": "Delegación D-I-24, Delegación D-II-57",
+    "fecha_asamblea": "miércoles 18 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "EDIFICIO SINDICAL",
+    "domicilio": "CAMPO DEPORTIVO ESQ. LÁZARO CARDENAS, COL. HUAYACOCOTLA CENTRO, C.P. 92600, HUAYACOCOTLA, VERACRUZ"
+  },
+  {
+    "id": 104,
+    "region_id": 8,
+    "delegacion": "Delegación D-III-10, C.T. 13",
+    "fecha_asamblea": "miércoles 18 de noviembre de 2026",
+    "hora": "15:00",
+    "recinto": "SALÓN LOCURA MIA",
+    "domicilio": "BENITO JUAREZ 340, COL. AQUILES SERDAN, C.P. 94300, ORIZABA, VERACRUZ"
+  },
+  {
+    "id": 105,
+    "region_id": 1,
+    "delegacion": "Delegación D-I-71",
+    "fecha_asamblea": "jueves 19 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "EDIFICIO SINDICAL PRIMARIAS BENITO JUAREZ",
+    "domicilio": "HIDALGO S/N, COL. CENTRO, C.P. 92661, BENITO JUAREZ, VERACRUZ"
+  },
+  {
+    "id": 106,
+    "region_id": 11,
+    "delegacion": "Delegación D-I-82",
+    "fecha_asamblea": "jueves 19 de noviembre de 2026",
+    "hora": "11:00",
+    "recinto": "JARDIN DE NIÑOS ESPARANZA SERRANO",
+    "domicilio": "FERNANDO LOPEZ ARIAS NUM 3, BARRIO PRIMERO, C.P. 96340, COSOLEACAQUE, VERACRUZ"
+  },
+  {
+    "id": 107,
+    "region_id": 11,
+    "delegacion": "Delegación D-I-28",
+    "fecha_asamblea": "jueves 19 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "ESC. PRIMARIA JUSTO CIERRA M",
+    "domicilio": "HIDALGO S/N, COL. CENTRO, C.P. 96950, JESÚS CARRANZA, VERACRUZ"
+  },
+  {
+    "id": 108,
+    "region_id": 8,
+    "delegacion": "Delegación D-IV-32, C.T. 40",
+    "fecha_asamblea": "viernes 20 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "EDIFICIO SINDICAL",
+    "domicilio": "PROLONGACION BENITO JUAREZ S/N, COL. ZONGOLICA, C.P. 95000, ZONGOLICA, VERACRUZ"
+  },
+  {
+    "id": 109,
+    "region_id": 11,
+    "delegacion": "Delegación D-II-45",
+    "fecha_asamblea": "viernes 20 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "ESC. SEC.Y BACHILLERES MIGUEL ALEMAN",
+    "domicilio": "16 DE SEPTIEMBRE 1001, COL. CENTRO, C.P. 96400, COATZACOALCOS, VERACRUZ"
+  },
+  {
+    "id": 110,
+    "region_id": 1,
+    "delegacion": "Delegación D-I-87",
+    "fecha_asamblea": "jueves 19 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "ESCUELA PRIMARIA ENCARNACIÓN OLIVARES",
+    "domicilio": "16 DE SEPTIEMBRE S\\N, COL. PRIMERA SECCIÓN, C.P. 92270, IXCATEPEC, VERACRUZ"
+  },
+  {
+    "id": 111,
+    "region_id": 8,
+    "delegacion": "Delegación D-I-55",
+    "fecha_asamblea": "miércoles 18 de noviembre de 2026",
+    "hora": "15:00",
+    "recinto": "EDIFICIO SINDICAL",
+    "domicilio": "BENITO JUAREZ S/N, COL. ZONGOLICA, C.P. 95000, ZONGOLICA, VERACRUZ"
+  },
+  {
+    "id": 112,
+    "region_id": 11,
+    "delegacion": "Delegación D-II-39",
+    "fecha_asamblea": "jueves 19 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "TERRAZA LA LUCIERNAGA",
+    "domicilio": "IGNACIO COMONFORT 205, COL. CRUZ VERDE, C.P. 96079, ACAYUCAN, VERACRUZ"
+  },
+  {
+    "id": 113,
+    "region_id": 8,
+    "delegacion": "Delegación D-I-27",
+    "fecha_asamblea": "miércoles 18 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "CENTRO ORIZABA DE CONVENCIONES",
+    "domicilio": "NORTE 4, COL. ORIZABA CENTRO, C.P. 94300, ORIZABA, VERACRUZ"
+  },
+  {
+    "id": 114,
+    "region_id": 11,
+    "delegacion": "Delegación D-I-1",
+    "fecha_asamblea": "jueves 19 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "ESC. EMILIANO ZAPATA",
+    "domicilio": "RAMON CORONA S/N, COL. AGRARIA, C.P. 96290, JÁLTIPAN, VERACRUZ"
+  },
+  {
+    "id": 115,
+    "region_id": 11,
+    "delegacion": "Delegación D-I-59",
+    "fecha_asamblea": "viernes 20 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "SALON DE USOS MULTIPLES DE LA SUPERVISION ESCOLAR 028",
+    "domicilio": "MELCHOR OCAMPO SUR NUM 1 ESQ. MARCO ANTONIO MUÑOZ, COL. CENTRO, C.P. 96000, ACAYUCAN, VERACRUZ"
+  },
+  {
+    "id": 116,
+    "region_id": 8,
+    "delegacion": "Delegación D-I-65",
+    "fecha_asamblea": "miércoles 18 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "EDIFICIO SINDICAL",
+    "domicilio": "BENITO JUAREZ S/N, COL. ZONGOLICA, C.P. 95000, ZONGOLICA, VERACRUZ"
+  },
+  {
+    "id": 117,
+    "region_id": 4,
+    "delegacion": "Delegación D-I-30",
+    "fecha_asamblea": "martes 17 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "EDIFICIO SINDICAL",
+    "domicilio": "C. RIVERA DEL RÍO N°103, COL. EL MIRADOR, C.P. 93600, MARTÍNEZ DE LA TORRE, VERACRUZ"
+  },
+  {
+    "id": 118,
+    "region_id": 11,
+    "delegacion": "Delegación D-I-31",
+    "fecha_asamblea": "jueves 19 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "ESC. PRIMARIA JORGE GELACIO PEREZ",
+    "domicilio": "DOMICILIO CONOCIDO S/N, COL. CENTRO, C.P. 96700, MINATITLÁN, VERACRUZ"
+  },
+  {
+    "id": 119,
+    "region_id": 8,
+    "delegacion": "Delegación D-II-36",
+    "fecha_asamblea": "miércoles 18 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "ESCUELA SECUNDARIA Y DE BACHILLERES ORIZABA",
+    "domicilio": "PROLONGACION NORTE 2 2080, COL. ORIZABA CENTRO, C.P. 94300, ORIZABA, VERACRUZ"
+  },
+  {
+    "id": 120,
+    "region_id": 11,
+    "delegacion": "Delegación D-I-49",
+    "fecha_asamblea": "jueves 19 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "EDIFICIO SINDICAL",
+    "domicilio": "HIDALGO NORTE NUM 1, BARRIO PETROLERO, C.P. 96150, SAYULA DE ALEMÁN, VERACRUZ"
+  },
+  {
+    "id": 121,
+    "region_id": 8,
+    "delegacion": "Delegación D-I-37",
+    "fecha_asamblea": "jueves 19 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "EDIFICIO DE LA CROM",
+    "domicilio": "ORIENTE 6, COL. ORIZABA CENTRO, C.P. 94300, ORIZABA, VERACRUZ"
+  },
+  {
+    "id": 122,
+    "region_id": 4,
+    "delegacion": "Delegación D-I-33",
+    "fecha_asamblea": "martes 17 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "EDIFICIO SINDICAL",
+    "domicilio": "EL POCITO S/N, COL. 20 DE NOVIEMBRE, C.P. 93820, MISANTLA, VERACRUZ"
+  },
+  {
+    "id": 123,
+    "region_id": 8,
+    "delegacion": "Delegación D-II-17",
+    "fecha_asamblea": "jueves 19 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "CRAM",
+    "domicilio": "AV.15 B 2804, COL. NUEVO CÓRDOBA, C.P. 94550, CÓRDOBA, VERACRUZ"
+  },
+  {
+    "id": 124,
+    "region_id": 8,
+    "delegacion": "Delegación D-I-78",
+    "fecha_asamblea": "jueves 19 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "CASA DE LA CULTURA DE ORIZABA",
+    "domicilio": "ORIENTE 2 N. 401, COL. ORIZABA CENTRO, C.P. 94300, ORIZABA, VERACRUZ"
+  },
+  {
+    "id": 125,
+    "region_id": 11,
+    "delegacion": "C.T. 25, C.T. 26, C.T. 30",
+    "fecha_asamblea": "viernes 20 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "ESC. PRIMARIA EMILIZANO ZAPATA",
+    "domicilio": "RAMON CORONA 309, COL. AGRARIA, C.P. 96290, JÁLTIPAN, VERACRUZ"
+  },
+  {
+    "id": 126,
+    "region_id": 8,
+    "delegacion": "Delegación D-IV-7",
+    "fecha_asamblea": "viernes 20 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "EDIFICIO DE LA CROM",
+    "domicilio": "ORIENTE 6, COL. ORIZABA CENTRO, C.P. 94300, ORIZABA, VERACRUZ"
+  },
+  {
+    "id": 127,
+    "region_id": 4,
+    "delegacion": "Delegación D-I-74",
+    "fecha_asamblea": "miércoles 18 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "SALÓN CORTÉS",
+    "domicilio": "MIGUEL HIDALGO S/N, COL. RAFAEL HERNÁNDEZ OCHOA, C.P. 93650, TLAPACOYAN, VERACRUZ"
+  },
+  {
+    "id": 128,
+    "region_id": 9,
+    "delegacion": "Delegación D-IV-29",
+    "fecha_asamblea": "miércoles 18 de noviembre de 2026",
+    "hora": "15:00",
+    "recinto": "MÓDULO SINDICAL SNTE 56",
+    "domicilio": "MORELOS, COL. HOJA DE MAÍZ, C.P. 95110, TIERRA BLANCA, VERACRUZ"
+  },
+  {
+    "id": 129,
+    "region_id": 4,
+    "delegacion": "Delegación D-I-77",
+    "fecha_asamblea": "miércoles 18 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "SALÓN SOCIAL JUCHIQUE DE FERRER",
+    "domicilio": "CAMPO DE AVIACIÓN S/N, COL. CENTRO, C.P. 91440, JUCHIQUE DE FERRER, VERACRUZ"
+  },
+  {
+    "id": 130,
+    "region_id": 8,
+    "delegacion": "Delegación D-IV-4",
+    "fecha_asamblea": "jueves 19 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "SALÓN FLAMINGOS",
+    "domicilio": "IGNACIO ALLENDE 1310, COL. CIUDAD MENDOZA CENTRO, C.P. 94740, CAMERINO Z. MENDOZA, VERACRUZ"
+  },
+  {
+    "id": 131,
+    "region_id": 8,
+    "delegacion": "C.T. 14",
+    "fecha_asamblea": "jueves 19 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "EDIFICIO SINDICAL",
+    "domicilio": "PUEBLA 22A, COL. RICARDO FLORES MAGÓN, C.P. 94730, RÍO BLANCO, VERACRUZ"
+  },
+  {
+    "id": 132,
+    "region_id": 5,
+    "delegacion": "Delegación D-IV-2",
+    "fecha_asamblea": "martes 17 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "SALÓN DE USOS MÚLTIPLES",
+    "domicilio": "JOSE EMPARAN 55, COL. TATAHUICAPAN, C.P. 91064, XALAPA, VERACRUZ"
+  },
+  {
+    "id": 133,
+    "region_id": 9,
+    "delegacion": "Delegación D-I-56",
+    "fecha_asamblea": "miércoles 18 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "MÓDULO SINDICAL SNTE 56",
+    "domicilio": "MORELOS S/N, COL. HOJA DE MAÍZ, C.P. 95110, TIERRA BLANCA, VERACRUZ"
+  },
+  {
+    "id": 134,
+    "region_id": 4,
+    "delegacion": "Delegación D-I-88, C.T. 9",
+    "fecha_asamblea": "martes 17 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "JARDÍN DE NIÑOS RAFAELA VIDAL",
+    "domicilio": "RÍO TECOLUTLA S/N, COL. MARTÍNEZ DE LA TORRE CENTRO, C.P. 93600, MARTÍNEZ DE LA TORRE, VERACRUZ"
+  },
+  {
+    "id": 135,
+    "region_id": 8,
+    "delegacion": "Delegación D-III-5",
+    "fecha_asamblea": "viernes 20 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "SALÓN H V",
+    "domicilio": "NORTE 15 N. 57, COL. ORIZABA CENTRO, C.P. 94300, ORIZABA, VERACRUZ"
+  },
+  {
+    "id": 136,
+    "region_id": 5,
+    "delegacion": "Delegación D-II-38",
+    "fecha_asamblea": "martes 17 de noviembre de 2026",
+    "hora": "13:00",
+    "recinto": "SALÓN DE USOS MÚLTIPLES",
+    "domicilio": "JOSE EMPARAN 55, COL. TATAHUICAPAN, C.P. 91064, XALAPA, VERACRUZ"
+  },
+  {
+    "id": 137,
+    "region_id": 8,
+    "delegacion": "Delegación D-I-54",
+    "fecha_asamblea": "viernes 20 de noviembre de 2026",
+    "hora": "15:00",
+    "recinto": "EDIFICIO SINDICAL",
+    "domicilio": "INSURGENTES S/N, COL. TEQUILA, C.P. 94840, TEQUILA, VERACRUZ"
+  },
+  {
+    "id": 138,
+    "region_id": 5,
+    "delegacion": "Delegación D-II-4",
+    "fecha_asamblea": "martes 17 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "SALA DE JUNTAS",
+    "domicilio": "JOSE EMPARAN 55, COL. TATAHUICAPAN, C.P. 91064, XALAPA, VERACRUZ"
+  },
+  {
+    "id": 139,
+    "region_id": 4,
+    "delegacion": "Delegación D-II-32",
+    "fecha_asamblea": "martes 17 de noviembre de 2026",
+    "hora": "15:00",
+    "recinto": "EDIFICIO SINDICAL",
+    "domicilio": "RIVERA DEL RÍO N° 103, COL. EL MIRADOR, C.P. 93600, MARTÍNEZ DE LA TORRE, VERACRUZ"
+  },
+  {
+    "id": 140,
+    "region_id": 5,
+    "delegacion": "Delegación D-II-55",
+    "fecha_asamblea": "martes 17 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "SALÓN DE TELEBACHILLERATO",
+    "domicilio": "JOSE EMPARAN 55, COL. TATAHUICAPAN, C.P. 91064, XALAPA, VERACRUZ"
+  },
+  {
+    "id": 141,
+    "region_id": 9,
+    "delegacion": "Delegación D-I-70",
+    "fecha_asamblea": "miércoles 18 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "CASA DE CULTURA GABRIEL MARTÌNEZ HERNÀNDEZ",
+    "domicilio": "CORREGIDORA DE QUERÈTARO NUM 105, COL. CENTRO, C.P. 95300, TRES VALLES, VERACRUZ"
+  },
+  {
+    "id": 142,
+    "region_id": 6,
+    "delegacion": "Delegación D-III-6",
+    "fecha_asamblea": "miércoles 18 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "ESCUELA ALEJANDRO MOLINA",
+    "domicilio": "BRAVO AHUJA 1, COL. PRIMERO DE MAYO, C.P. 94298, BOCA DEL RÍO, VERACRUZ"
+  },
+  {
+    "id": 143,
+    "region_id": 5,
+    "delegacion": "Delegación D-III-4",
+    "fecha_asamblea": "martes 17 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "EDIFICIO XANATI",
+    "domicilio": "XANATI S/N, COL. MARCO ANTONIO MUÑOZ, C.P. 91073, XALAPA, VERACRUZ"
+  },
+  {
+    "id": 144,
+    "region_id": 9,
+    "delegacion": "Delegación D-IV-34",
+    "fecha_asamblea": "miércoles 18 de noviembre de 2026",
+    "hora": "14:00",
+    "recinto": "BIBLIOTECA JUAN ENRIQUEZ",
+    "domicilio": "JUAN ENRIQUEZ NUM 4, COL. CENTRO, C.P. 95460, TLACOTALPAN, VERACRUZ"
+  },
+  {
+    "id": 145,
+    "region_id": 6,
+    "delegacion": "Delegación D-I-8",
+    "fecha_asamblea": "miércoles 18 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "EDIFICIO SINDICAL",
+    "domicilio": "ENRIQUE C. REBSAMEN 55, COL. MAGISTERIAL, C.P. 91653, PUENTE NACIONAL, VERACRUZ"
+  },
+  {
+    "id": 146,
+    "region_id": 4,
+    "delegacion": "Delegación D-IV-28",
+    "fecha_asamblea": "martes 17 de noviembre de 2026",
+    "hora": "15:00",
+    "recinto": "EDIFICIO SINDICAL",
+    "domicilio": "EL POCITO S/N, COL. 20 DE NOVIEMBRE, C.P. 93820, MISANTLA, VERACRUZ"
+  },
+  {
+    "id": 147,
+    "region_id": 5,
+    "delegacion": "Delegación D-I-11",
+    "fecha_asamblea": "martes 17 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "SALÓN DE USOS MÚLTIPLES COATEPEC",
+    "domicilio": "JUAN SOTO 88, COL. COATEPEC CENTRO, C.P. 91500, COATEPEC, VERACRUZ"
+  },
+  {
+    "id": 148,
+    "region_id": 6,
+    "delegacion": "Delegación D-I-73",
+    "fecha_asamblea": "miércoles 18 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "SIX GARDEN",
+    "domicilio": "RÍO MEDIO S/N, COL. PASO DE OVEJAS CENTRO, C.P. 91670, PASO DE OVEJAS, VERACRUZ"
+  },
+  {
+    "id": 149,
+    "region_id": 6,
+    "delegacion": "Delegación D-I-95",
+    "fecha_asamblea": "miércoles 18 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "ESCUELA PRIMARIA LAZARO CARDENAS",
+    "domicilio": "CALLE LIBERTAD S/N, COL. MANLIO FABIO ALTAMIRANO, C.P. 94250, MANLIO FABIO ALTAMIRANO, VERACRUZ"
+  },
+  {
+    "id": 150,
+    "region_id": 4,
+    "delegacion": "Delegación D-I-93",
+    "fecha_asamblea": "martes 17 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "PRIMARIA JOSEFA ORTIZ DE DOMÍNGUEZ",
+    "domicilio": "ZARAGOZA N°206, COL. CENTRO, C.P. 93960, VEGA DE ALATORRE, VERACRUZ"
+  },
+  {
+    "id": 151,
+    "region_id": 5,
+    "delegacion": "Delegación D-I-5",
+    "fecha_asamblea": "martes 17 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "EDIFICIO SINIDICAL",
+    "domicilio": "PROLONGACIÓN DE IGNACIO ALLENDE 5, COL. ATALPAS, C.P. 93700, ALTOTONGA, VERACRUZ"
+  },
+  {
+    "id": 152,
+    "region_id": 6,
+    "delegacion": "C.T. 11, C.T. 17, C.T. 31",
+    "fecha_asamblea": "miércoles 18 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "BACHILLERES VERACRUZ",
+    "domicilio": "ESTEBAN MORALES 490, COL. VERACRUZ CENTRO, C.P. 91700, VERACRUZ, VERACRUZ"
+  },
+  {
+    "id": 153,
+    "region_id": 4,
+    "delegacion": "Delegación D-II-48",
+    "fecha_asamblea": "martes 17 de noviembre de 2026",
+    "hora": "15:00",
+    "recinto": "TELEBACHILLERATO NAUTLA",
+    "domicilio": "LLANURAS DE NAUTLA S/N, COL. CENTRO, C.P. 93800, NAUTLA, VERACRUZ"
+  },
+  {
+    "id": 154,
+    "region_id": 5,
+    "delegacion": "Delegación D-II-3, C.T. 20",
+    "fecha_asamblea": "martes 17 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "ESCUELA DE BACHILLERES ARTICULO 3°",
+    "domicilio": "ADOLFO RUIZ CORTINEZ 2901, UNIDAD MAGISTERIAL, C.P. 91010, XALAPA, VERACRUZ"
+  },
+  {
+    "id": 155,
+    "region_id": 5,
+    "delegacion": "Delegación D-I-92, C.T. 24",
+    "fecha_asamblea": "martes 17 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "SALA DE USOS MULTIPLES  DE LA DIRECCION DE EDUCACION NORMAL",
+    "domicilio": "RIO TECOLUTLA N°33, COL. CUAUHTEMOC, C.P. 91069, XALAPA, VERACRUZ"
+  },
+  {
+    "id": 156,
+    "region_id": 5,
+    "delegacion": "Delegación D-II-56, C.T. 18",
+    "fecha_asamblea": "martes 17 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "AUDITORIO DE LA ESCUELA DE BACHILLERES ANTONIO MA. DE RIVERA",
+    "domicilio": "CIRCUITO GONZALO AGUIRRE BELTRAN, COL. ZONA UNIVERSITARIA, C.P. 91090, XALAPA, VERACRUZ"
+  },
+  {
+    "id": 157,
+    "region_id": 5,
+    "delegacion": "Delegación D-II-2, C.T. 33",
+    "fecha_asamblea": "martes 17 de noviembre de 2026",
+    "hora": "15:00",
+    "recinto": "AUDITORIO POMPILIO AGUILAR SCHROEDER DE LA ESCUELA NORMAL SUAREZ TRUJILLO",
+    "domicilio": "BOULEVAR CULTURAS VERACRUZANAS 752, COL. RESERVA TERRITORIAL, C.P. 91096, XALAPA, VERACRUZ"
+  },
+  {
+    "id": 158,
+    "region_id": 5,
+    "delegacion": "Delegación D-II-15",
+    "fecha_asamblea": "martes 17 de noviembre de 2026",
+    "hora": "15:00",
+    "recinto": "AUDITORIO PARANINFO DEL COLEGIO PREPARATORIO VESPERTINO DE XALAPA",
+    "domicilio": "BENITO JUAREZ 57, COL. XALAPA ENRÍQUEZ CENTRO, C.P. 91000, XALAPA, VERACRUZ"
+  },
+  {
+    "id": 159,
+    "region_id": 5,
+    "delegacion": "Delegación D-II-21",
+    "fecha_asamblea": "martes 17 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "SALA AUDITIVA DE LA BENEMERITA Y CENTENARIA ESCUELA NORMAL VERACRUZANA \"ENRIQUE C. REBSAMEN\"",
+    "domicilio": "AV. XALAPA S/N, COL. UNIDAD MAGISTERIAL , C.P. 91010, XALAPA, VERACRUZ"
+  },
+  {
+    "id": 160,
+    "region_id": 5,
+    "delegacion": "Delegación D-III-8",
+    "fecha_asamblea": "martes 17 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "BIBLIOTECA CARLOS FUENTES",
+    "domicilio": "ESQUINA URSULO GALVAN Y J.J.HERRERA, COL. XALAPA ENRÍQUEZ CENTRO, C.P. 91000, XALAPA, VERACRUZ"
+  },
+  {
+    "id": 161,
+    "region_id": 5,
+    "delegacion": "Delegación D-I-53",
+    "fecha_asamblea": "martes 17 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "SALON DELEGACIONAL SAMUEL MARTINEZ OLMOS",
+    "domicilio": "MATAMOROS 6, COL. CENTRO, C.P. 91615, TEOCELO, VERACRUZ"
+  },
+  {
+    "id": 162,
+    "region_id": 5,
+    "delegacion": "Delegación D-I-84",
+    "fecha_asamblea": "miércoles 18 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "SALON DE USOS MULTIPLES",
+    "domicilio": "JOSE EMPARAN 55, COL. TATAHUICAPAN, C.P. 91064, XALAPA, VERACRUZ"
+  },
+  {
+    "id": 163,
+    "region_id": 5,
+    "delegacion": "Delegación D-I-20",
+    "fecha_asamblea": "miércoles 18 de noviembre de 2026",
+    "hora": "15:00",
+    "recinto": "SALON DE USOS MULTIPLES",
+    "domicilio": "JOSE EMPARAN 55, COL. TATAHUICAPAN, C.P. 91064, XALAPA, VERACRUZ"
+  },
+  {
+    "id": 164,
+    "region_id": 5,
+    "delegacion": "Delegación D-III-14",
+    "fecha_asamblea": "miércoles 18 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "SALA DE JUNTAS",
+    "domicilio": "JOSE EMPARAN 55, COL. TATAHUICAPAN, C.P. 91064, XALAPA, VERACRUZ"
+  },
+  {
+    "id": 165,
+    "region_id": 5,
+    "delegacion": "Delegación D-II-46",
+    "fecha_asamblea": "miércoles 18 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "SALON DE TELEBACHILLERATO",
+    "domicilio": "JOSE EMPARAN 55, COL. TATAHUICAPAN, C.P. 91064, XALAPA, VERACRUZ"
+  },
+  {
+    "id": 166,
+    "region_id": 5,
+    "delegacion": "Delegación D-II-58",
+    "fecha_asamblea": "miércoles 18 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "EDIFICIO XANATI",
+    "domicilio": "XANATI S/N, COL. MARCO ANTONIO MUÑOZ, C.P. 91073, XALAPA, VERACRUZ"
+  },
+  {
+    "id": 167,
+    "region_id": 5,
+    "delegacion": "Delegación D-III-16",
+    "fecha_asamblea": "miércoles 18 de noviembre de 2026",
+    "hora": "11:00",
+    "recinto": "SALON DE USOS MULTIPLES COATEPEC",
+    "domicilio": "JUAN SOTO 88, COL. COATEPEC CENTRO, C.P. 91500, COATEPEC, VERACRUZ"
+  },
+  {
+    "id": 168,
+    "region_id": 5,
+    "delegacion": "Delegación D-IV-18",
+    "fecha_asamblea": "miércoles 18 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "EDIFICIO SINDICAL",
+    "domicilio": "PROLONGACIÓN DE IGNACIO ALLENDE 5, COL. ATALPAS, C.P. 93700, ALTOTONGA, VERACRUZ"
+  },
+  {
+    "id": 169,
+    "region_id": 5,
+    "delegacion": "Delegación D-I-34",
+    "fecha_asamblea": "miércoles 18 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "SALON HIDALGO",
+    "domicilio": "PLAZA DE ARMAS S/N, COL. CENTRO, C.P. 91400, XALAPA, VERACRUZ"
+  },
+  {
+    "id": 170,
+    "region_id": 5,
+    "delegacion": "Delegación D-I-47",
+    "fecha_asamblea": "miércoles 18 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "SALON MARQUESA",
+    "domicilio": "AV HIDALGO 150, BARRIO DE GUADALUPE, C.P. 91330, LAS VIGAS, VERACRUZ"
+  },
+  {
+    "id": 171,
+    "region_id": 5,
+    "delegacion": "Delegación D-I-75",
+    "fecha_asamblea": "miércoles 18 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "CASA DEL CAMPESINO DE CARRIZAL",
+    "domicilio": "URSULO GALVAN ESQUINA 16 DE SEPTIEMBRE S/N, COL. CENTRO, C.P. 91630, EMILIANO ZAPATA, VERACRUZ"
+  },
+  {
+    "id": 172,
+    "region_id": 5,
+    "delegacion": "Delegación D-III-3",
+    "fecha_asamblea": "jueves 19 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "SALON DE USOS MULTIPLES",
+    "domicilio": "JOSE EMPARAN 55, COL. TATAHUICAPAN, C.P. 91064, XALAPA, VERACRUZ"
+  },
+  {
+    "id": 173,
+    "region_id": 5,
+    "delegacion": "Delegación D-III-1",
+    "fecha_asamblea": "jueves 19 de noviembre de 2026",
+    "hora": "15:00",
+    "recinto": "SALON DE USOS MULTIPLES",
+    "domicilio": "JOSE EMPARAN 55, COL. TATAHUICAPAN, C.P. 91064, XALAPA, VERACRUZ"
+  },
+  {
+    "id": 174,
+    "region_id": 5,
+    "delegacion": "Delegación D-III-24",
+    "fecha_asamblea": "jueves 19 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "SALA DE JUNTAS",
+    "domicilio": "JOSE EMPARAN 55, COL. TATAHUICAPAN, C.P. 91064, XALAPA, VERACRUZ"
+  },
+  {
+    "id": 175,
+    "region_id": 5,
+    "delegacion": "C.T. 04",
+    "fecha_asamblea": "jueves 19 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "SALON DE TELEBACHILLERATO",
+    "domicilio": "JOSE EMPARAN 55, COL. TATAHUICAPAN, C.P. 91064, XALAPA, VERACRUZ"
+  },
+  {
+    "id": 176,
+    "region_id": 5,
+    "delegacion": "Delegación D-III-9",
+    "fecha_asamblea": "jueves 19 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "EDIFICIO XANATI",
+    "domicilio": "XANATI S/N, COL. MARCO ANTONIO MUÑOZ, C.P. 91073, XALAPA, VERACRUZ"
+  },
+  {
+    "id": 177,
+    "region_id": 1,
+    "delegacion": "Delegación D-II-1, C.T. CT07",
+    "fecha_asamblea": "jueves 19 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "EDIFICIO SINDICAL PRIMARIAS TANTOYUCA",
+    "domicilio": "AVENIDA REVOLUCIÓN ESQUINA CARRETERA NACIONAL, COL. 10 DE MAYO, C.P. 92122, TANTOYUCA, VERACRUZ"
+  },
+  {
+    "id": 178,
+    "region_id": 5,
+    "delegacion": "Delegación D-I-81",
+    "fecha_asamblea": "jueves 19 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "EDIFICIO SINDICAL COATEPEC",
+    "domicilio": "JUAN SOTO 88, COL. COATEPEC CENTRO, C.P. 91500, COATEPEC, VERACRUZ"
+  },
+  {
+    "id": 179,
+    "region_id": 5,
+    "delegacion": "Delegación D-I-61",
+    "fecha_asamblea": "viernes 20 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "SALÓN DE USOS MÚLTIPLES",
+    "domicilio": "JOSE EMPARAN 55, COL. TATAHUICAPAN, C.P. 91064, XALAPA, VERACRUZ"
+  },
+  {
+    "id": 180,
+    "region_id": 5,
+    "delegacion": "Delegación D-III-23",
+    "fecha_asamblea": "viernes 20 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "EDIFICIO XANATI",
+    "domicilio": "XANATI S/N, COL. MARCO ANTONIO MUÑOZ, C.P. 91073, XALAPA, VERACRUZ"
+  },
+  {
+    "id": 181,
+    "region_id": 5,
+    "delegacion": "Delegación D-IV-17",
+    "fecha_asamblea": "viernes 20 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "EDIFICIO SINDICAL COATEPEC",
+    "domicilio": "JUAN SOTO 88, COL. COATEPEC CENTRO, C.P. 91500, COATEPEC, VERACRUZ"
+  },
+  {
+    "id": 182,
+    "region_id": 4,
+    "delegacion": "Delegación D-II-42",
+    "fecha_asamblea": "miércoles 18 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "EDIFICIO SINDICAL",
+    "domicilio": "RIVERA DEL RÍO N°103, COL. EL MIRADOR, C.P. 93600, MARTÍNEZ DE LA TORRE, VERACRUZ"
+  },
+  {
+    "id": 183,
+    "region_id": 4,
+    "delegacion": "Delegación D-II-34",
+    "fecha_asamblea": "miércoles 18 de noviembre de 2026",
+    "hora": "15:00",
+    "recinto": "EDIFICIO SINDICAL",
+    "domicilio": "POCITO S/N, COL. 20 DE NOVIEMBRE, C.P. 93820, MISANTLA, VERACRUZ"
+  },
+  {
+    "id": 184,
+    "region_id": 4,
+    "delegacion": "Delegación D-III-15",
+    "fecha_asamblea": "jueves 19 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "EDIFICIO SINIDICAL",
+    "domicilio": "RIVERA DEL RÍO N°103, COL. EL MIRADOR, C.P. 93600, MARTÍNEZ DE LA TORRE, VERACRUZ"
+  },
+  {
+    "id": 185,
+    "region_id": 4,
+    "delegacion": "C.T. 5, C.T. 29",
+    "fecha_asamblea": "jueves 19 de noviembre de 2026",
+    "hora": "15:00",
+    "recinto": "EDIFICIO SINDICAL",
+    "domicilio": "EL POCITO S/N, COL. 20 DE NOVIEMBRE, C.P. 93820, MISANTLA, VERACRUZ"
+  },
+  {
+    "id": 186,
+    "region_id": 4,
+    "delegacion": "Delegación D-IV-8",
+    "fecha_asamblea": "miércoles 18 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "AUDITORIO PRIMARIA PATRIA",
+    "domicilio": "AV. IGNACIO ZARAGOZA N°222, COL. CENTRO, C.P. 93600, MARTÍNEZ DE LA TORRE, VERACRUZ"
+  },
+  {
+    "id": 187,
+    "region_id": 5,
+    "delegacion": "Delegación D-II-24",
+    "fecha_asamblea": "viernes 20 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "SALA DE JUNTAS",
+    "domicilio": "JOSE EMPARAN 55, COL. TATAHUICAPAN, C.P. 91064, XALAPA, VERACRUZ"
+  },
+  {
+    "id": 188,
+    "region_id": 5,
+    "delegacion": "Delegación D-II-13",
+    "fecha_asamblea": "viernes 20 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "BENEMERITA Y CENTENARIA ESCUELA NORMAL VERACRUZANA",
+    "domicilio": "AV XALAPA S/N, UNIDAD MAGISTERIAL, C.P. 91010, XALAPA, VERACRUZ"
+  },
+  {
+    "id": 189,
+    "region_id": 6,
+    "delegacion": "Delegación D-IV-33",
+    "fecha_asamblea": "jueves 19 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "EDIFICIO SINDICAL",
+    "domicilio": "ENRIQUE C. REBSAMEN 55, COL. MAGISTERIAL, C.P. 91653, PUENTE NACIONAL, VERACRUZ"
+  },
+  {
+    "id": 190,
+    "region_id": 9,
+    "delegacion": "Delegación D-II-10, Delegación D-III-7",
+    "fecha_asamblea": "martes 17 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "BIBLIOTECA DE LA ESCUELA SECUNDARIA Y DE BACHILLERES DE ALVARADO MARCO ANTONIO MUÑOZ",
+    "domicilio": "NEZAHUALCÓYOTL S/N, COL. CENTRO, C.P. 95250, ALVARADO, VERACRUZ"
+  },
+  {
+    "id": 191,
+    "region_id": 9,
+    "delegacion": "Delegación D-II-27, Delegación D-III-2",
+    "fecha_asamblea": "miércoles 18 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "ESCUELA PRIMARIA LEONA VICARIO",
+    "domicilio": "LIBERTAD 404, COL. CENTRO, C.P. 95110, TIERRA BLANCA, VERACRUZ"
+  },
+  {
+    "id": 192,
+    "region_id": 5,
+    "delegacion": "C.T. 03, C.T. 21, C.T. 23",
+    "fecha_asamblea": "martes 17 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "ESCUELA DE BACHILLERES EXPERIMENTAL",
+    "domicilio": "JUAN ESCUTIA 2, COL. REVOLUCIÓN, C.P. 91100, XALAPA, VERACRUZ"
+  },
+  {
+    "id": 193,
+    "region_id": 9,
+    "delegacion": "Delegación D-II-12, Delegación D-II-29",
+    "fecha_asamblea": "miércoles 18 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "BIBLIOTECA DE LA ESCUELA PROFR. ABELINO BOLAÑOS PALACIOS",
+    "domicilio": "PROLONGACIÓN JOSE MARIA IGLESIAS S/N, COL. TLACOTALPAN, C.P. 95460, TLACOTALPAN, VERACRUZ"
+  },
+  {
+    "id": 194,
+    "region_id": 2,
+    "delegacion": "Delegación D-I-35",
+    "fecha_asamblea": "martes 17 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "EDIFICIO SINDICAL CHONTLA",
+    "domicilio": "CONTLA S/N, FRACC. NUEVO NARANJOS, C.P. 92310, NARANJOS AMATLÁN, VERACRUZ"
+  },
+  {
+    "id": 195,
+    "region_id": 5,
+    "delegacion": "Delegación D-I-62",
+    "fecha_asamblea": "viernes 20 de noviembre de 2026",
+    "hora": "15:00",
+    "recinto": "SALÓN DE USOS MÚLTIPLES",
+    "domicilio": "JOSE EMPARAN 55, COL. TATAHUICAPAN, C.P. 91064, XALAPA, VERACRUZ"
+  },
+  {
+    "id": 196,
+    "region_id": 2,
+    "delegacion": "Delegación D-I-57",
+    "fecha_asamblea": "martes 17 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "EDIFICIO SINDICAL TUXPAN",
+    "domicilio": "AV. CUAHTEMOC # 57, COL. DEL VALLE, C.P. 92875, TUXPAN, VERACRUZ"
+  },
+  {
+    "id": 197,
+    "region_id": 2,
+    "delegacion": "Delegación D-III-13",
+    "fecha_asamblea": "martes 17 de noviembre de 2026",
+    "hora": "15:00",
+    "recinto": "EDIFICIO SINDICAL TUXPAN",
+    "domicilio": "AV., COL. DEL VALLE, C.P. 92875, TUXPAN, VERACRUZ"
+  },
+  {
+    "id": 198,
+    "region_id": 5,
+    "delegacion": "Delegación D-I-60",
+    "fecha_asamblea": "martes 17 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "IMAC XALAPA",
+    "domicilio": "AV ADOLFO RUIZ CORTINES & CALLE HORTENCIA, COL. REPRESA DEL CARMEN, C.P. 91050, XALAPA, VERACRUZ"
+  },
+  {
+    "id": 199,
+    "region_id": 2,
+    "delegacion": "Delegación D-I-38",
+    "fecha_asamblea": "martes 17 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "EDIFICIO SINDICAL OZULUAMA",
+    "domicilio": "PASEO DEL VICHÍN S/N, COL. CENTRO, C.P. 92080, OZULUAMA DE MASCAREÑAS, VERACRUZ"
+  },
+  {
+    "id": 200,
+    "region_id": 2,
+    "delegacion": "Delegación D-I-9",
+    "fecha_asamblea": "martes 17 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "ESC. SEC. CONSTITUYENTES DE QUERÉTARO",
+    "domicilio": "RAYMUNDO ALEJANDRE S/N, COL. EL CUATRO, C.P. 92514, CERRO AZUL, VERACRUZ"
+  },
+  {
+    "id": 201,
+    "region_id": 2,
+    "delegacion": "Delegación D-I-19",
+    "fecha_asamblea": "martes 17 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "EDIFICIO SINDICAL CHONTLA",
+    "domicilio": "LIBERTAD # 601, COL. CHONTLA, C.P. 92200, CHONTLA, VERACRUZ"
+  },
+  {
+    "id": 202,
+    "region_id": 2,
+    "delegacion": "Delegación D-I-80",
+    "fecha_asamblea": "miércoles 18 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "EDIFICIO SINDICAL TUXPAN",
+    "domicilio": "AV. CUAHUTEMOC # 57, COL. DEL VALLE, C.P. 92875, TUXPAN, VERACRUZ"
+  },
+  {
+    "id": 203,
+    "region_id": 2,
+    "delegacion": "Delegación D-I-94",
+    "fecha_asamblea": "miércoles 18 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "ESC. PRIM. FILIBERTO ROMÁN LIMA",
+    "domicilio": "AV. MIGUEL HIDALGO # 67, COL. TAMIAHUA, C.P. 92560, TAMIAHUA, VERACRUZ"
+  },
+  {
+    "id": 204,
+    "region_id": 2,
+    "delegacion": "Delegación D-II-20",
+    "fecha_asamblea": "miércoles 18 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "SUPERVISIÓN ESCOLAR TEBAS TUXPAN",
+    "domicilio": "MAGDALENA MIXUCA # 35, COL. 17 DE OCTUBRE, C.P. 92840, TUXPAN, VERACRUZ"
+  },
+  {
+    "id": 205,
+    "region_id": 2,
+    "delegacion": "Delegación D-II-22",
+    "fecha_asamblea": "miércoles 18 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "EDIFICIO SINDICAL NARANJOS",
+    "domicilio": "CHONTLA S/N, FRACC. NUEVO NARANJOS, C.P. 92310, NARANJOS AMATLÁN, VERACRUZ"
+  },
+  {
+    "id": 206,
+    "region_id": 2,
+    "delegacion": "Delegación D-II-53, C.T. CT08",
+    "fecha_asamblea": "miércoles 18 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "ESC. DE BACHILLERES MANUAL C. TELLO",
+    "domicilio": "BLVR. MANUAL MAPLES ARCE S/N, COL. ADOLFO RUIZ CORTINES, C.P. 92880, TUXPAN, VERACRUZ"
+  },
+  {
+    "id": 207,
+    "region_id": 2,
+    "delegacion": "Delegación D-IV-9",
+    "fecha_asamblea": "jueves 19 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "EDIFICIO SINDICAL TUXPAN",
+    "domicilio": "AV. CUAHUTEMOC # 57, COL. DEL VALLE, C.P. 92875, TUXPAN, VERACRUZ"
+  },
+  {
+    "id": 208,
+    "region_id": 2,
+    "delegacion": "Delegación D-IV-12",
+    "fecha_asamblea": "jueves 19 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "EDIFICIO SINDICAL NARANJOS",
+    "domicilio": "CHONTLA S/N, FRACC. NUEVO NARANJOS, C.P. 92310, NARANJOS AMATLÁN, VERACRUZ"
+  },
+  {
+    "id": 209,
+    "region_id": 2,
+    "delegacion": "Delegación D-IV-36",
+    "fecha_asamblea": "jueves 19 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "SALÓN DE EVENTOS FANTASIA SILVESTRE",
+    "domicilio": "AQUILES SERDAN 101, COL. ZONA SUR, C.P. 92560, TAMIAHUA, VERACRUZ"
+  },
+  {
+    "id": 210,
+    "region_id": 3,
+    "delegacion": "Delegación D-I-21",
+    "fecha_asamblea": "jueves 19 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "AUDITORIO MUNICIPAL",
+    "domicilio": "16 DE SEPTIEMBRE S/N, COL. CENTRO, C.P. 93180, ESPINAL, VERACRUZ"
+  },
+  {
+    "id": 211,
+    "region_id": 3,
+    "delegacion": "Delegación D-II-25",
+    "fecha_asamblea": "jueves 19 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "TEBAEV",
+    "domicilio": "NIÑOS HEROES S/N, COL. CENTRO, C.P. 93180, ESPINAL, VERACRUZ"
+  },
+  {
+    "id": 212,
+    "region_id": 1,
+    "delegacion": "Delegación D-IV-37",
+    "fecha_asamblea": "miércoles 18 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "PRIMARIA RAFAEL PLATÓN SÁNCEZ",
+    "domicilio": "CALLA PLATÓN #17, COL. EL MAGUEY, C.P. 92147, PLATÓN SÁNCHEZ, VERACRUZ"
+  },
+  {
+    "id": 213,
+    "region_id": 1,
+    "delegacion": "Delegación D-II-37",
+    "fecha_asamblea": "martes 17 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "EDIFICIO SINDICAL PRIMARIAS TANTOYUCA",
+    "domicilio": "AV. REVOLUCIÓN ESQUIMA CARRETERA NACIONAL, COL. 10 DE MAYO, C.P. 92122, TANTOYUCA, VERACRUZ"
+  },
+  {
+    "id": 214,
+    "region_id": 1,
+    "delegacion": "Delegación D-II-50",
+    "fecha_asamblea": "jueves 19 de noviembre de 2026",
+    "hora": "09:00",
+    "recinto": "EDIFICIO SINDICAL PRIMARIAS TEMPOAL",
+    "domicilio": "CALLE URSULO GALVÁN S/N, COL. REVOLUCIÓN VERDE, C.P. 92064, TEMPOAL, VERACRUZ"
+  }
+]

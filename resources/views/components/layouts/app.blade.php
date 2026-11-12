@@ -39,7 +39,7 @@
         <div class="bg-[#f18c21] h-3"></div>
 
         {{-- Menú de Navegación Público (Pestañas) --}}
-        <nav class="bg-white border-b border-gray-200 shadow-sm px-6 py-2.5 flex justify-center md:justify-end gap-6 text-sm font-medium">
+        {{-- <nav class="bg-white border-b border-gray-200 shadow-sm px-6 py-2.5 flex justify-center md:justify-end gap-6 text-sm font-medium">
             <a href="{{ route('public.registro-ponencia') }}" 
                class="transition flex items-center gap-1.5 {{ request()->routeIs('public.registro-ponencia') ? 'text-[#9d2449] font-bold border-b-2 border-[#9d2449] pb-0.5' : 'text-gray-600 hover:text-[#9d2449]' }}">
                 📝 Registrar Ponencia
@@ -48,7 +48,7 @@
                class="transition flex items-center gap-1.5 {{ request()->routeIs('public.consulta') ? 'text-[#9d2449] font-bold border-b-2 border-[#9d2449] pb-0.5' : 'text-gray-600 hover:text-[#9d2449]' }}">
                 🔍 Consultar Registro / Acuse
             </a>
-        </nav>
+        </nav> --}}
     </header>
 
     <div class="flex-1 flex flex-col justify-center py-6">
