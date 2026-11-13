@@ -28,7 +28,7 @@
                         <select id="delegacion_id" wire:model="delegacion_id" class="w-full px-4 py-3 mt-1 block rounded-xl border border-gray-300 bg-white shadow-sm outline-none focus:border-orange-500 focus:ring-2 focus:ring-orange-200 focus:outline-none">
                             <option value="">Seleccione una delegación de la asamblea</option>
                             @foreach ($delegaciones as $delegacion)
-                                <option value="{{ $delegacion->id }}">{{ $delegacion->delegacion }}</option>
+                                <option value="{{ $delegacion->id }}">{{ $delegacion->delegacion_completa }}</option>
                             @endforeach
                         </select>
                         @error('delegacion_id') <span class="text-red-600 text-xs">{{ $message }}</span> @enderror
@@ -105,24 +105,25 @@
                         @error('telefono') <span class="text-red-600 text-xs">{{ $message }}</span> @enderror
                     </div>
 
-                    <div class="md:col-span-2">
+                    <div>
                         <label for="email" class="block text-normal font-semibold text-gray-700">Correo Electrónico</label>
                         <input id="email" type="email" placeholder="correo@ejemplo.com" wire:model="email" class="w-full px-4 py-3 mt-1 block rounded-xl border border-gray-300 shadow-sm outline-none focus:border-orange-500 focus:ring-2 focus:ring-orange-200 focus:outline-none" />
                         @error('email') <span class="text-red-600 text-xs">{{ $message }}</span> @enderror
                     </div>
+                </div>
 
-                    {{-- <div class="md:col-span-2">
-                        <label for="fotografia" class="block text-normal font-semibold text-gray-700">Fotografía para Gafete (JPG/PNG, máx 2MB)</label>
-                        <input id="fotografia" type="file" wire:model="fotografia" accept="image/png, image/jpeg" class="w-full px-4 py-3 mt-1 block rounded-xl border border-gray-300 bg-white shadow-sm text-sm text-gray-500 outline-none focus:border-orange-500 focus:ring-2 focus:ring-orange-200 focus:outline-none file:mr-4 file:py-2 file:px-4 file:rounded-xl file:border-0 file:text-sm file:font-semibold file:bg-orange-50 file:text-orange-700 hover:file:bg-orange-100" />
-                        @error('fotografia') <span class="text-red-600 text-xs">{{ $message }}</span> @enderror
-
-                        @if ($fotografia)
-                            <div class="mt-3">
-                                <p class="text-xs text-gray-500 mb-1">Vista previa:</p>
-                                <img src="{{ $fotografia->temporaryUrl() }}" class="h-28 w-28 object-cover rounded-xl border border-gray-300 shadow-sm">
-                            </div>
-                        @endif
-                    </div> --}}
+                <div class="md:col-span-2">
+                    <div class="flex flex-col gap-1">
+                        <label for="tema" class="block text-normal font-semibold text-gray-700">Tema de la convocatoria con el que tiene mayor afinidad</label>
+                        <select id="tema" wire:model="tema"
+                            class="w-full px-4 py-2 border border-gray-300 rounded-lg shadow-sm bg-white focus:ring-2 focus:ring-[#ee7a00] focus:border-[#ee7a00] transition">
+                            <option value="">Seleccione el eje temático</option>
+                            @foreach ($temas as $opcion)
+                                <option value="{{ $opcion }}">{{ $opcion }}</option>
+                            @endforeach
+                        </select>
+                        @error('tema') <span class="text-red-600 text-sm">{{ $message }}</span> @enderror
+                    </div>                        
                 </div>
 
                 <div class="pt-4 border-t border-gray-200 flex justify-end">
@@ -264,7 +265,6 @@
             </h4>
 
             <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-5">
-
                 <div>
                     <p class="text-xs text-gray-500 mb-1">Teléfono</p>
                     <p class="text-sm font-semibold text-gray-800">{{ $telefono }}</p>
@@ -274,8 +274,27 @@
                     <p class="text-xs text-gray-500 mb-1">Correo electrónico</p>
                     <p class="text-sm font-semibold text-gray-800 break-all">{{ $email }}</p>
                 </div>
-
             </div>
+
+
+            <div class="border-t border-orange-100 my-6"></div>
+
+            <!-- Eje temático -->
+            <h4 class="text-sm font-bold text-orange-700 uppercase tracking-wide mb-5 flex items-center gap-2">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M3 5a2 2 0 012-2h3.28a2 2 0 011.96 1.608l.5 2.5a2 2 0 01-.72 1.95l-1.5 1.2a11 11 0 005.2 5.2l1.2-1.5a2 2 0 011.95-.72l2.5.5A2 2 0 0121 15.72V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/>
+                </svg>
+                Eje temático
+            </h4>
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-5">
+                <div class="sm:col-span-2 md:col-span-3">
+                    <p class="text-xs text-gray-500 mb-1">Tema de la convocatoria con el que tiene mayor afinidad</p>
+                    <p class="text-sm font-semibold text-gray-800 uppercase">{{ $tema }}</p>
+                </div>
+            </div>
+
+
 
         </div>
     </div>

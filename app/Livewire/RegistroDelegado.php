@@ -2,13 +2,15 @@
 
 namespace App\Livewire;
 
-use App\Models\DelegacionAsamblea;
+use App\Models\Delegacion;
 use App\Models\Delegado;
 use App\Models\Region;
 use Livewire\Attributes\Layout;
 use Livewire\Attributes\Rule;
 use Livewire\Component;
 use Livewire\WithFileUploads;
+use Illuminate\Validation\Rule as ValidationRule; // <-- 1. Importamos ValidationRule con alias para no chocar con el atributo Rule
+
 
 #[Layout('components.layouts.app')]
 class RegistroDelegado extends Component
@@ -46,11 +48,14 @@ class RegistroDelegado extends Component
     #[Rule('required|exists:delegaciones,id')]
     public $delegacion_id = '';
     
-    #[Rule('required|string|max:100')]
+    #[Rule('required|string|max:225')]
     public string $nivel_educativo = '';    
     
     #[Rule('required|integer|unique:delegados,numero_personal')]
     public string $numero_personal ='';
+
+    #[Rule('required|string|max:225')]
+    public string $tema ='';
 
 
     // Variables auxiliares para mostrar los nombres en la vista de revisión
@@ -77,7 +82,7 @@ class RegistroDelegado extends Component
         $this->delegacion_id = '';
 
         if ($value) {
-            $this->delegaciones = DelegacionAsamblea::where('region_id', $value)
+            $this->delegaciones = Delegacion::where('region_id', $value)
                 ->orderBy('delegacion')
                 ->get();
         } else {
@@ -85,13 +90,21 @@ class RegistroDelegado extends Component
         }
     }
 
+    protected function rules(): array
+    {
+        return [
+            'tema' => ['required', 'string', ValidationRule::in(Delegado::TEMAS)],
+        ];
+    }
+
+
 
     // Paso 1: Valida los datos y pasa a la pantalla de revisión (sin guardar aún)
     public function reviewData()
     {
         $this->validate();
 
-        $delegacionObj = DelegacionAsamblea::with('region')->find($this->delegacion_id);
+        $delegacionObj = Delegacion::with('region')->find($this->delegacion_id);
 
         $this->delegacion_nombre = $delegacionObj?->delegacion ?? '';
         $this->region_nombre = $delegacionObj?->region?->nombre ?? '';
@@ -126,6 +139,7 @@ class RegistroDelegado extends Component
             'numero_personal.integer' => 'El número personal debe ser un valor numérico.',
             'email.required' => 'El correo electrónico es obligatorio.',
             'nivel_educativo.required' => 'El nivel educativo es obligatorio.',
+            'tema.required' => 'La selección del tema es obligatoria.',
             'fotografia.image' => 'La fotografía debe ser una imagen válida (jpg, jpeg, png).',
         ];
     }
@@ -155,6 +169,7 @@ class RegistroDelegado extends Component
             'numero_personal' => $this->numero_personal,
             // 'fotografia'                => $rutaFoto,
             'estatus'                   => 'presunto_delegado',
+            'tema'                      => $this->tema,
         ]);
 
         return $this->redirectRoute('registro.exito', ['folio' => $delegado->folio], navigate: true);
@@ -174,12 +189,15 @@ class RegistroDelegado extends Component
             'email',
             'nivel_educativo',
             'numero_personal',
-            'fotografia'
+            'fotografia',
+            'tema',
         ]);
     }
 
     public function render()
     {
-        return view('livewire.registro.delegado.formulario');
+        return view('livewire.registro.delegado.formulario', [
+            'temas' => Delegado::TEMAS, // <-- 5. Enviamos la lista a la vista
+        ]);
     }
 }

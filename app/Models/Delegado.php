@@ -26,7 +26,8 @@ class Delegado extends Model
         'folio',
         'codigo_qr',
         'fotografia',
-        'estatus'
+        'estatus',
+        'tema',
     ];
 
 
@@ -116,5 +117,18 @@ class Delegado extends Model
             default             => '#D97706',
         };
     }    
+
+    public const TEMAS = [
+        'I. Artículo Tercero Constitucional, Educación y Escuela Pública.',
+        'II. Derechos Laborales y Profesionales.',
+        'III. Previsión y Seguridad Social.',
+        'IV. Jubilados y Pensionados.',
+        'V. Salarios, Prestaciones e Incentivos.',
+        'VI. Inteligencia Artificial en el Ámbito Educativo y Sindical.',
+        'VII. Entornos Escolares Libres de Violencia.',
+        'VIII. Demandas de los Subsistemas Homologados.',
+        'IX. Equidad, Paridad e Inclusión.',
+        'X. Reforma Estatutaria.',
+    ];    
 
 }

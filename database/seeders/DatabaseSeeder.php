@@ -30,6 +30,7 @@ class DatabaseSeeder extends Seeder
             RegionSeeder::class,
             NivelSeeder::class,
             DelegacionSeeder::class,
+            DelegacionAsambleaSeeder::class,
         ]);        
     }
 }
