@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>XII Congreso Estatal de Ponencias - SNTE 56</title>
+    <title>XII Congreso Seccional Extraordinario de la Sección 56 del SNTE</title>
     @vite(['resources/css/app.css', 'resources/js/app.js'])
     @livewireStyles
 </head>
