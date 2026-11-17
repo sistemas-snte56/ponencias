@@ -73,7 +73,7 @@
                     </div>
 
                     <div>
-                        <label for="numero_personal" class="block text-normal font-semibold text-gray-700">Número de Personal / Empleado</label>
+                        <label for="numero_personal" class="block text-normal font-semibold text-gray-700">Ingresa tu número de personal o pensionado</label>
                         <input id="numero_personal" type="text" wire:model="numero_personal" placeholder="Ingresa tu número de personal" class="w-full px-4 py-3 mt-1 block rounded-xl border border-gray-300 shadow-sm outline-none focus:border-orange-500 focus:ring-2 focus:ring-orange-200 focus:outline-none" />
                         @error('numero_personal') <span class="text-red-600 text-xs">{{ $message }}</span> @enderror
                     </div>
