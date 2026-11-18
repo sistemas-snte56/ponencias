@@ -13,7 +13,7 @@ return new class extends Migration
     {
         Schema::create('delegados', function (Blueprint $table) {
             $table->id();
-            $table->foreignId('delegacion_id')->constrained('delegaciones_asambleas')->cascadeOnDelete();
+            $table->foreignId('delegacion_id')->constrained('delegaciones')->cascadeOnDelete();
 
             //Datos personales
             $table->string('nombre');

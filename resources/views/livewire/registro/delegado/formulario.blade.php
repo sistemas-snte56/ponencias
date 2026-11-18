@@ -74,7 +74,7 @@
 
                     <div>
                         <label for="numero_personal" class="block text-normal font-semibold text-gray-700">Ingresa tu número de personal o pensionado</label>
-                        <input id="numero_personal" type="text" wire:model="numero_personal" placeholder="Ingresa tu número de personal" class="w-full px-4 py-3 mt-1 block rounded-xl border border-gray-300 shadow-sm outline-none focus:border-orange-500 focus:ring-2 focus:ring-orange-200 focus:outline-none" />
+                        <input id="numero_personal" type="tel" wire:model="numero_personal" placeholder="Ingresa tu número de personal" class="w-full px-4 py-3 mt-1 block rounded-xl border border-gray-300 shadow-sm outline-none focus:border-orange-500 focus:ring-2 focus:ring-orange-200 focus:outline-none" />
                         @error('numero_personal') <span class="text-red-600 text-xs">{{ $message }}</span> @enderror
                     </div>
 
@@ -83,13 +83,13 @@
                         <select id="nivel_educativo" wire:model="nivel_educativo" class="w-full px-4 py-3 mt-1 block rounded-xl border border-gray-300 bg-white shadow-sm outline-none focus:border-orange-500 focus:ring-2 focus:ring-orange-200 focus:outline-none">
                             <option value="">Seleccione un nivel...</option>
                             <option value="PREESCOLAR">PREESCOLAR</option>
-                            <option value="EDUCACIÓN ESPECIAL">EDUCACIÓN ESPECIAL</option>
+                            <option value="EDUCACION ESPECIAL">EDUCACIÓN ESPECIAL</option>
                             <option value="PRIMARIAS">PRIMARIAS</option>
                             <option value="SECUNDARIAS">SECUNDARIAS</option>
                             <option value="PENSIONADOS Y JUBILADOS">PENSIONADOS Y JUBILADOS</option>
                             <option value="EDUCACION FISICA">EDUCACIÓN FÍSICA</option>
                             <option value="NIVELES ESPECIALES">NIVELES ESPECIALES</option>
-                            <option value="TELESECUNDARIA">TELESECUNDARIA</option>
+                            <option value="TELESECUNDARIAS">TELESECUNDARIAS</option>
                             <option value="PAAE">PAAE</option>
                             <option value="BACHILLERATO">BACHILLERATO</option>
                             <option value="TELEBACHILLERATO">TELEBACHILLERATO</option>

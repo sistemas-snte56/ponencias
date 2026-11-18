@@ -148,7 +148,7 @@ class RegistroDelegado extends Component
     {
         // Inspecciona el valor exacto que se quiere guardar
         // dd([
-        //     'nivel_educativo_enviado' => $this->nivel_educativo,
+        //     'delegacion_id_en_save' => $this->delegacion_id,
         //     'todos_los_datos' => $this->all()
         // ]);
 

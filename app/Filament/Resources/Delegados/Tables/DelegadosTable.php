@@ -8,6 +8,7 @@ use Filament\Actions\EditAction;
 use Filament\Actions\ViewAction;
 use Filament\Tables\Columns\TextColumn;
 use Filament\Tables\Table;
+use Illuminate\Database\Eloquent\Builder;
 
 class DelegadosTable
 {
@@ -15,18 +16,39 @@ class DelegadosTable
     {
         return $table
             ->columns([
-                TextColumn::make('delegacion.id')
-                    ->searchable(),
-                TextColumn::make('nombre_completo')
+                TextColumn::make('delegacion.region.nombre')
+                    ->searchable(),                
+                TextColumn::make('delegacion.delegacion_completa')
+                    ->searchable(query: function (Builder $query, string $search): Builder {
+                        return $query->whereHas('delegacion', function ($q) use ($search) {
+                            $q->where('delegacion', 'like', "%{$search}%")
+                            ->orWhere('sede', 'like', "%{$search}%")
+                            ->orWhereHas('nivel', function ($nivelQuery) use ($search) {
+                                $nivelQuery->where('nombre', 'like', "%{$search}%");
+                            });
+                        });
+                    }),
+                // TextColumn::make('nombre_completo')
+                //     ->searchable(query: function (Builder $query, string $search): Builder {
+                //         return $query->where(function ($q) use ($search) {
+                //             $q->where('nombre', 'like', "%{$search}%")
+                //             ->orWhere('apellido_paterno', 'like', "%{$search}%")
+                //             ->orWhere('apellido_materno', 'like', "%{$search}%")
+                //             ->orWhereRaw("CONCAT(nombre, ' ', apellido_paterno, ' ', COALESCE(apellido_materno, '')) like ?", ["%{$search}%"]);
+                //         });
+                //     }),
+                TextColumn::make('nombre')
                     ->searchable(),
                 TextColumn::make('apellido_paterno')
                     ->searchable(),
                 TextColumn::make('apellido_materno')
                     ->searchable(),
                 TextColumn::make('genero')
-                    ->badge(),
+                    ->badge()
+                    ->toggleable(isToggledHiddenByDefault: true),
                 TextColumn::make('rfc')
-                    ->searchable(),
+                    ->searchable()
+                    ->toggleable(isToggledHiddenByDefault: true),
                 TextColumn::make('telefono')
                     ->searchable(),
                 TextColumn::make('email')
@@ -37,19 +59,14 @@ class DelegadosTable
                 TextColumn::make('numero_personal')
                     ->searchable(),
                 TextColumn::make('uudd')
-                    ->searchable(),
+                    ->searchable()
+                    ->toggleable(isToggledHiddenByDefault: true),
                 TextColumn::make('folio')
-                    ->searchable(),
-                TextColumn::make('fotografia')
-                    ->searchable(),
+                    ->searchable()
+                    ->toggleable(isToggledHiddenByDefault: true),
                 TextColumn::make('estatus')
                     ->searchable(),
-                TextColumn::make('descargado_at')
-                    ->dateTime()
-                    ->sortable(),
-                TextColumn::make('created_by')
-                    ->numeric()
-                    ->sortable(),
+
                 TextColumn::make('created_at')
                     ->dateTime()
                     ->sortable()
