@@ -2,6 +2,8 @@
 
 namespace App\Filament\Resources\Delegados\Tables;
 
+use App\Exports\DelegadosExport;
+use Filament\Actions\Action;
 use Filament\Actions\BulkActionGroup;
 use Filament\Actions\DeleteBulkAction;
 use Filament\Actions\EditAction;
@@ -9,6 +11,7 @@ use Filament\Actions\ViewAction;
 use Filament\Tables\Columns\TextColumn;
 use Filament\Tables\Table;
 use Illuminate\Database\Eloquent\Builder;
+use Maatwebsite\Excel\Facades\Excel;
 
 class DelegadosTable
 {
@@ -28,21 +31,21 @@ class DelegadosTable
                             });
                         });
                     }),
-                // TextColumn::make('nombre_completo')
-                //     ->searchable(query: function (Builder $query, string $search): Builder {
-                //         return $query->where(function ($q) use ($search) {
-                //             $q->where('nombre', 'like', "%{$search}%")
-                //             ->orWhere('apellido_paterno', 'like', "%{$search}%")
-                //             ->orWhere('apellido_materno', 'like', "%{$search}%")
-                //             ->orWhereRaw("CONCAT(nombre, ' ', apellido_paterno, ' ', COALESCE(apellido_materno, '')) like ?", ["%{$search}%"]);
-                //         });
-                //     }),
-                TextColumn::make('nombre')
-                    ->searchable(),
-                TextColumn::make('apellido_paterno')
-                    ->searchable(),
-                TextColumn::make('apellido_materno')
-                    ->searchable(),
+                TextColumn::make('nombre_completo')
+                    ->searchable(query: function (Builder $query, string $search): Builder {
+                        return $query->where(function ($q) use ($search) {
+                            $q->where('nombre', 'like', "%{$search}%")
+                            ->orWhere('apellido_paterno', 'like', "%{$search}%")
+                            ->orWhere('apellido_materno', 'like', "%{$search}%")
+                            ->orWhereRaw("CONCAT(nombre, ' ', apellido_paterno, ' ', COALESCE(apellido_materno, '')) like ?", ["%{$search}%"]);
+                        });
+                    }),
+                // TextColumn::make('nombre')
+                //     ->searchable(),
+                // TextColumn::make('apellido_paterno')
+                //     ->searchable(),
+                // TextColumn::make('apellido_materno')
+                //     ->searchable(),
                 TextColumn::make('genero')
                     ->badge()
                     ->toggleable(isToggledHiddenByDefault: true),
@@ -81,6 +84,20 @@ class DelegadosTable
             ->filters([
                 //
             ])
+            ->headerActions([
+                Action::make('exportar_excel')
+                    ->label('Exportar a Excel')
+                    ->icon('heroicon-o-document-arrow-down')
+                    ->color('success')
+                    ->action(function () {
+                        \Filament\Notifications\Notification::make()
+                                    ->title('¡Exportación exitosa!')
+                                    ->body('El archivo de delegados se ha descargado correctamente.')
+                                    ->success()
+                                    ->send();                        
+                        return Excel::download(new DelegadosExport, 'delegados.xlsx');
+                    })
+            ])
             ->recordActions([
                 ViewAction::make(),
                 EditAction::make(),
@@ -89,6 +106,8 @@ class DelegadosTable
                 BulkActionGroup::make([
                     DeleteBulkAction::make(),
                 ]),
-            ]);
+            ])
+            ->paginationPageOptions([10, 25, 50, 100])
+            ->defaultPaginationPageOption(100);            
     }
 }
